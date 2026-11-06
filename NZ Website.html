@@ -4,39 +4,2004 @@
     <metacharset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title></title>
+        <title>Nz Website</title>
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Bootstrap Icons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+            rel="stylesheet">
+        <!-- Custom CSS -->
         <link rel="stylesheet" href="nzweb.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-
-
 </head>
 
 <body>
-    <!-- ================= TOP BAR ================= -->
-
+    <!--====== Top Contact Bar ==========-->
     <div class="top-bar">
+        <div class="container d-flex justify-content-between flex-wrap">
+            <div>
+                <span>📍 Queenstown, Otago, New Zealand</span>
+            </div>
 
-        <div class="top-container">
+            <div class="contact-info">
+                <span>+64 3 442 0000</span>
+                <span>mark27@gmail.com</span>
+            </div>
+        </div>
+    </div>
 
-            <!-- Location -->
-            <div class="location">
-                <i class="fa-solid fa-location-dot"></i>
-                <span>Queenstown, Otago, New Zealand</span>
+    <!--================== Navigation Bar ======================-->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+
+            <!-- Logo -->
+            <a class="navbar-brand" href="Solutions@Markup.html">
+                Solution<span>@</span>Markup
+            </a>
+
+            <!-- Mobile Toggle -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+                aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar Links -->
+            <div class="collapse navbar-collapse" id="mainNavbar">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="Home.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="About.html">About</a>
+                    </li>
+
+                    <!-- Services Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+
+                            Services
+                        </a>
+
+                        <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+
+                            <li>
+                                <a class="dropdown-item" href="Web-Development.html">
+                                    Web Development
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="Web-Design.html">
+                                    Web Design
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="Digital-Marketing.html">
+                                    Digital Marketing
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="SEO-Services.html">
+                                    SEO Services
+                                </a>
+                            </li>
+
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="All-Services.html">
+                                    All Services
+                                </a>
+                            </li>
+
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="Gallery.html">Gallery</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="Food-Videos.html">Food Videos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="Blog.html">Blog</a>
+                    </li>
+
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contact.html">Contact</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link registration" href="Registration.html">
+                            Registration
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--================== Hero Seaction======================-->
+    <section class="hero-section" id="home">
+
+        <video autoplay muted loop playsinline poster="./Assests/Home img_flg.avif" alt="New Zealand Video"
+            class="hero-video">
+
+            <source src="./Video Assets/Home Video.mp4" type="video/mp4">
+
+        </video>
+
+        <div class="hero-overlay"></div>
+
+        <div class="container hero-content">
+
+            <p class="hero-subtitle">
+                DISCOVER THE BEAUTY OF AOTEAROA
+            </p>
+
+            <h1>
+                EXPLORE THE<br>
+                BEAUTY OF <span>NEW ZEALAND</span>
+            </h1>
+
+            <p class="hero-description">
+                Discover breathtaking mountains, beautiful lakes,
+                amazing landscapes and unforgettable adventures.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="destinations.html" class="btn explore-btn">
+                    Explore Now
+                </a>
+
+                <a href="slider.html" class="btn video-btn">
+                    <i class="bi bi-images"></i>
+                    View Gallery
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="scroll-down">
+            <i class="bi bi-chevron-double-down"></i>
+            <p>SCROLL DOWN</p>
+        </div>
+
+    </section>
+
+    <!--================== Explore Bar Section ======================-->
+    <section id="explore" class="explore-section">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <span>EXPLORE NEW ZEALAND</span>
+
+                <h2>
+                    Nature Beyond
+                    <strong>Imagination.</strong>
+                </h2>
+
+                <p>
+                    From dramatic mountains to crystal-clear lakes,
+                    discover the natural beauty of New Zealand.
+                </p>
+
+            </div>
+
+            <div class="row g-4">
+
+                <div class="col-lg-4 col-md-6">
+
+                    <div class="explore-card">
+
+                        <div class="card-icon">
+                            <i class="bi bi-mountain"></i>
+                        </div>
+
+                        <h3>Majestic Mountains</h3>
+
+                        <p>
+                            Explore breathtaking mountain ranges
+                            surrounded by untouched landscapes.
+                        </p>
+
+                        <a href="Discover.html">
+                            Discover More
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+
+                    <div class="explore-card">
+
+                        <div class="card-icon">
+                            <i class="bi bi-water"></i>
+                        </div>
+
+                        <h3>Beautiful Lakes</h3>
+
+                        <p>
+                            Experience peaceful lakes with crystal-clear
+                            water and spectacular surroundings.
+                        </p>
+
+                        <a href="Discover.html">
+                            Discover More
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+
+                    <div class="explore-card">
+
+                        <div class="card-icon">
+                            <i class="bi bi-tree"></i>
+                        </div>
+
+                        <h3>Wild Nature</h3>
+
+                        <p>
+                            Discover forests, valleys and incredible
+                            natural landscapes across the country.
+                        </p>
+
+                        <a href="Discover.html">
+                            Discover More
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--  GALLERY SECTION -->
+    <section id="gallery" class="gallery-section">
+
+        <div class="container">
+
+            <div class="gallery-title">
+                <span>VISUAL JOURNEY</span>
+
+                <h2>
+                    Discover
+                    <strong>Aotearoa</strong>
+                </h2>
+            </div>
+
+            <div class="row g-3">
+
+                <div class="col-md-6">
+
+                    <div class="gallery-box large">
+                        <img src="./Assests/New Zealand mountains_flg.jpg" alt="New Zealand Mountains">
+
+                        <div class="gallery-overlay">
+                            <h3>Mountain Landscapes</h3>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-3">
+
+                    <div class="gallery-box">
+                        <img src="./Assests/New Zealand Lake_flg.jpg" alt="New Zealand Lake">
+
+                        <div class="gallery-overlay">
+                            <h3>Peaceful Lakes</h3>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-3">
+
+                    <div class="gallery-box">
+                        <img src="Assests/New Zealand Nature_flg.jpg" alt="New Zealand Nature">
+
+                        <div class="gallery-overlay">
+                            <h3>Wild Nature</h3>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--================== View Gallery Section ======================-->
+    <section class="nz-home">
+
+        <!-- Background Overlay -->
+        <div class="hero-overlay"></div>
+
+        <div class="container hero-wrapper">
+
+            <div class="hero-content">
+
+                <!-- Small Label -->
+                <p class="top-label">
+                    <span></span>
+                    DISCOVER THE BEAUTY OF AOTEAROA
+                    <span></span>
+                </p>
+
+                <!-- Heading -->
+                <h1>
+                    EXPLORE THE
+                    <br>
+                    BEAUTY OF
+                    <span>NEW ZEALAND</span>
+                </h1>
+
+                <!-- Description -->
+                <p class="hero-text">
+                    Discover breathtaking mountains, beautiful lakes,
+                    amazing landscapes and unforgettable adventures.
+                </p>
+
+                <!-- Gallery Button -->
+                <button type="button" class="gallery-main-btn" id="openGallery">
+
+                    <i class="bi bi-images"></i>
+
+                    View Gallery
+
+                    <i class="bi bi-arrow-up-right"></i>
+
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator">
+
+            <div class="scroll-icon">
+                <i class="bi bi-chevron-down"></i>
+            </div>
+
+            <span>SCROLL TO EXPLORE</span>
+
+        </div>
+
+    </section>
+
+    <!--  GALLERY SECTION -->
+    <section class="gallery-section" id="gallery">
+
+        <div class="container">
+
+            <!-- Heading -->
+            <div class="gallery-heading">
+
+                <p>NEW ZEALAND COLLECTION</p>
+
+                <h2>
+                    A Visual Journey Through
+                    <span>Aotearoa</span>
+                </h2>
+
+                <div class="heading-line"></div>
+
             </div>
 
 
-            <!-- Contact Information -->
-            <div class="contact-info">
+            <!-- Filter Buttons -->
+            <div class="gallery-filters">
+
+                <button class="filter-btn active" data-filter="all">
+                    All
+                </button>
+
+                <button class="filter-btn" data-filter="mountain">
+                    Mountains
+                </button>
+
+                <button class="filter-btn" data-filter="lake">
+                    Lakes
+                </button>
+
+                <button class="filter-btn" data-filter="nature">
+                    Nature
+                </button>
+
+            </div>
+
+
+            <!-- Gallery Grid -->
+            <div class="row g-4 gallery-grid">
+
+
+                <!-- Image 1 -->
+                <div class="col-lg-4 col-md-6 gallery-item" data-category="mountain">
+
+                    <div class="gallery-card">
+
+                        <img src="https://images.unsplash.com/photo-1469521669194-babb45599def?auto=format&fit=crop&w=1200&q=85"
+                            alt="New Zealand Mountain">
+
+                        <div class="image-overlay">
+
+                            <div>
+                                <small>MOUNTAINS</small>
+
+                                <h3>
+                                    Alpine Landscapes
+                                </h3>
+                            </div>
+
+                            <button class="image-view-btn" data-bs-toggle="modal" data-bs-target="#imageModal"
+                                data-image="https://images.unsplash.com/photo-1469521669194-babb45599def?auto=format&fit=crop&w=1600&q=90"
+                                data-title="Alpine Landscapes">
+
+                                <i class="bi bi-plus-lg"></i>
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Image 2 -->
+                <div class="col-lg-4 col-md-6 gallery-item" data-category="lake">
+
+                    <div class="gallery-card">
+
+                        <img src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=85"
+                            alt="New Zealand Lake">
+
+                        <div class="image-overlay">
+
+                            <div>
+                                <small>LAKES</small>
+
+                                <h3>
+                                    Crystal Blue Waters
+                                </h3>
+                            </div>
+
+                            <button class="image-view-btn" data-bs-toggle="modal" data-bs-target="#imageModal"
+                                data-image="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1600&q=90"
+                                data-title="Crystal Blue Waters">
+
+                                <i class="bi bi-plus-lg"></i>
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Image 3 -->
+                <div class="col-lg-4 col-md-6 gallery-item" data-category="nature">
+
+                    <div class="gallery-card">
+
+                        <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1200&q=85"
+                            alt="New Zealand Nature">
+
+                        <div class="image-overlay">
+
+                            <div>
+                                <small>NATURE</small>
+
+                                <h3>
+                                    Wild & Untouched
+                                </h3>
+                            </div>
+
+                            <button class="image-view-btn" data-bs-toggle="modal" data-bs-target="#imageModal"
+                                data-image="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1600&q=90"
+                                data-title="Wild & Untouched">
+
+                                <i class="bi bi-plus-lg"></i>
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Image 4 -->
+                <div class="col-lg-4 col-md-6 gallery-item" data-category="mountain">
+
+                    <div class="gallery-card">
+
+                        <img src="https://images.unsplash.com/photo-1483347756197-71ef80e95f73?auto=format&fit=crop&w=1200&q=85"
+                            alt="Mountain Valley">
+
+                        <div class="image-overlay">
+
+                            <div>
+                                <small>MOUNTAINS</small>
+
+                                <h3>
+                                    Mountain Valley
+                                </h3>
+                            </div>
+
+                            <button class="image-view-btn" data-bs-toggle="modal" data-bs-target="#imageModal"
+                                data-image="https://images.unsplash.com/photo-1483347756197-71ef80e95f73?auto=format&fit=crop&w=1600&q=90"
+                                data-title="Mountain Valley">
+
+                                <i class="bi bi-plus-lg"></i>
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Image 5 -->
+                <div class="col-lg-4 col-md-6 gallery-item" data-category="lake">
+
+                    <div class="gallery-card">
+
+                        <img src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=1200&q=85"
+                            alt="Lake Landscape">
+
+                        <div class="image-overlay">
+
+                            <div>
+                                <small>LAKES</small>
+
+                                <h3>
+                                    Peaceful Horizon
+                                </h3>
+                            </div>
+
+                            <button class="image-view-btn" data-bs-toggle="modal" data-bs-target="#imageModal"
+                                data-image="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=1600&q=90"
+                                data-title="Peaceful Horizon">
+
+                                <i class="bi bi-plus-lg"></i>
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Image 6 -->
+                <div class="col-lg-4 col-md-6 gallery-item" data-category="nature">
+
+                    <div class="gallery-card">
+
+                        <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1200&q=85"
+                            alt="New Zealand Forest">
+
+                        <div class="image-overlay">
+
+                            <div>
+                                <small>NATURE</small>
+
+                                <h3>
+                                    Ancient Forests
+                                </h3>
+                            </div>
+
+                            <button class="image-view-btn" data-bs-toggle="modal" data-bs-target="#imageModal"
+                                data-image="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1600&q=90"
+                                data-title="Ancient Forests">
+
+                                <i class="bi bi-plus-lg"></i>
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Image Model -->
+    <div class="modal fade" id="imageModal" tabindex="-1" aria-hidden="true">
+
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+
+            <div class="modal-content gallery-modal">
+
+                <div class="modal-header">
+
+                    <h5 class="modal-title" id="modalTitle">
+                        New Zealand
+                    </h5>
+
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal">
+                    </button>
+
+                </div>
+
+                <div class="modal-body">
+
+                    <img id="modalImage" src="" alt="Gallery Preview">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- ================= DESTINATION SLIDER ================= -->
+
+    <section class="slider-section" id="slider">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <p>EXPLORE NEW ZEALAND</p>
+
+                <h2>Beautiful Places To Visit</h2>
 
                 <span>
-                    <i class="fa-solid fa-phone"></i>
-                    +64 3 442 0000
+                    Discover some of the most beautiful places in the world.
                 </span>
 
+            </div>
+
+
+            <div id="destinationCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+
+                <!-- Slider Images -->
+
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+
+                        <img src="./Assests/New Zealand Lake_flg.jpg" class="d-block w-100" alt="New Zealand Lake">
+
+
+                        <div class="carousel-caption">
+                            <h3>Lake Tekapo</h3>
+                            <p>Experience the beauty of crystal-clear lakes.</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="carousel-item">
+
+                        <img src="./Assests/Beautiful mountain lake_flg.jpg" class="d-block w-100"
+                            alt="Beautiful mountain lake">
+
+                        <div class="carousel-caption">
+                            <h3>Queenstown</h3>
+                            <p>Discover mountains and adventure.</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="carousel-item">
+
+                        <img src="./Assests/Mount Cook_flg.jpg" class="d-block w-100" alt="Snowy mountains">
+
+
+                        <div class="carousel-caption">
+                            <h3>Mount Cook</h3>
+                            <p>Enjoy the amazing mountain scenery.</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Previous Button -->
+
+                <button class="carousel-control-prev" type="button" data-bs-target="destinationCarousel.html"
+                    data-bs-slide="prev">
+
+                    <span class="carousel-control-prev-icon"></span>
+
+                </button>
+
+
+                <!-- Next Button -->
+
+                <button class="carousel-control-next" type="button" data-bs-target="destinationCarousel.html"
+                    data-bs-slide="next">
+
+                    <span class="carousel-control-next-icon"></span>
+
+                </button>
+
+
+                <!-- Slider Indicators -->
+
+                <div class="carousel-indicators">
+
+                    <button type="button" data-bs-target="destinationCarousel.html" data-bs-slide-to="0"
+                        class="active"></button>
+
+                    <button type="button" data-bs-target="destinationCarousel.html" data-bs-slide-to="1"></button>
+
+                    <button type="button" data-bs-target="destinationCarousel.html" data-bs-slide-to="2"></button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= DESTINATIONS ================= -->
+
+    <section class="destination-section" id="destinations">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <p>TRAVEL AND EXPLORE</p>
+
+                <h2>Top Destinations</h2>
+
+            </div>
+
+
+            <div class="row g-4">
+
+                <div class="col-lg-4 col-md-6">
+
+                    <div class="destination-card">
+
+                        <img src="./Assests/queenstown _flg.jpg" alt="Queenstown">
+
+                        <div class="destination-info">
+                            <h3>Queenstown</h3>
+                            <p>Adventure and beautiful landscapes.</p>
+                            <a href="contact.html">Explore More →</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-4 col-md-6">
+
+                    <div class="destination-card">
+
+                        <img src="./Assests/Lake destination_flg.jpg" alt="Lake destination">
+
+                        <div class="destination-info">
+                            <h3>Lake Tekapo</h3>
+                            <p>Peaceful lakes and amazing views.</p>
+                            <a href="contact.html">Explore More →</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-4 col-md-6">
+
+                    <div class="destination-card">
+
+                        <img src="./Assests/Mountain destination_flg.jpg" alt="Mountain destination">
+
+                        <div class="destination-info">
+                            <h3>Mount Cook</h3>
+                            <p>Discover the beauty of the mountains.</p>
+                            <a href="contact.html">Explore More →</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= Home ABOUT ================= -->
+    <section class="about-section" id="about">
+
+        <div class="container text-center">
+
+            <h2>Welcome To New Zealand</h2>
+
+            <p>
+                New Zealand is a beautiful country famous for its
+                natural landscapes, mountains, lakes, beaches and
+                exciting travel experiences.
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!--======About Seaction==========-->
+    <section class="about-hero">
+
+        <div class="about-overlay"></div>
+
+        <div class="container about-content">
+
+            <p>DISCOVER OUR BEAUTIFUL COUNTRY</p>
+
+            <h1>ABOUT <span>NEW ZEALAND</span></h1>
+
+            <h5>
+                A Land Of Natural Beauty, Adventure And Culture
+            </h5>
+
+            <a href="about-intro.html" class="btn about-btn">
+                Discover More
+                <i class="bi bi-arrow-down"></i>
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- =============== INTRODUCTION =============== -->
+
+    <section class="intro-section" id="about-intro">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <p>WELCOME TO AOTEAROA</p>
+
+                <h2>Discover New Zealand</h2>
+
+            </div>
+
+            <div class="row align-items-center g-5">
+
+                <div class="col-lg-6">
+
+                    <div class="intro-image">
+
+                        <img src="./Assests/New Zealand mountains_flg.jpg" alt="New Zealand mountains">
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6">
+
+                    <div class="intro-text">
+
+                        <h3>A Country Full Of Natural Wonders</h3>
+
+                        <p>
+                            New Zealand, also known as Aotearoa,
+                            is a beautiful island country in the
+                            southwestern Pacific Ocean.
+                        </p>
+
+                        <p>
+                            It is famous for its spectacular mountains,
+                            peaceful lakes, green forests, beautiful
+                            beaches and amazing natural landscapes.
+                        </p>
+
+                        <p>
+                            New Zealand offers unforgettable travel
+                            experiences, outdoor adventures and a
+                            rich cultural heritage.
+                        </p>
+
+                        <a href="story.html" class="read-btn">
+                            Read Our Story →
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =============== OUR STORY =============== -->
+
+    <section class="story-section" id="story">
+
+        <div class="container">
+
+            <div class="row align-items-center g-5">
+
+                <div class="col-lg-6">
+
+                    <div class="story-text">
+
+                        <p class="small-heading">OUR STORY</p>
+
+                        <h2>Explore The Land Of Adventure</h2>
+
+                        <p>
+                            New Zealand has a fascinating history
+                            shaped by Māori communities and later
+                            European settlement.
+                        </p>
+
+                        <p>
+                            Today, the country is known around
+                            the world for its welcoming communities,
+                            unique wildlife, beautiful scenery and
+                            exciting outdoor activities.
+                        </p>
+
+                        <p>
+                            From exploring mountains to discovering
+                            cultural traditions, every journey in
+                            New Zealand creates special memories.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6">
+
+                    <img class="story-image" src="./Assests/Beautiful New Zealand lake_flg.jpg"
+                        alt="Beautiful New Zealand lake">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =============== WHY CHOOSE US =============== -->
+
+    <section class="choose-section">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <p>WHY NEW ZEALAND</p>
+
+                <h2>What Makes Us Special?</h2>
+
+            </div>
+
+            <div class="row g-4">
+
+                <div class="col-lg-4 col-md-6">
+
+                    <div class="choose-card">
+
+                        <i class="bi bi-mountain"></i>
+
+                        <h4>Natural Beauty</h4>
+
+                        <p>
+                            Discover breathtaking mountains,
+                            lakes, beaches and forests.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+
+                    <div class="choose-card">
+
+                        <i class="bi bi-compass"></i>
+
+                        <h4>Adventure</h4>
+
+                        <p>
+                            Enjoy hiking, kayaking, skiing
+                            and exciting outdoor activities.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+
+                    <div class="choose-card">
+
+                        <i class="bi bi-globe"></i>
+
+                        <h4>Rich Culture</h4>
+
+                        <p>
+                            Experience Māori heritage,
+                            traditions, art and local culture.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =============== STATISTICS =============== -->
+
+    <section class="counter-section">
+
+        <div class="container">
+
+            <div class="row text-center g-4">
+
+                <div class="col-6 col-lg-3">
+
+                    <div class="counter-box">
+
+                        <i class="bi bi-geo-alt"></i>
+
+                        <h2 class="counter" data-target="2">0</h2>
+
+                        <p>Main Islands</p>
+
+                    </div>
+
+                </div>
+
+                <div class="col-6 col-lg-3">
+
+                    <div class="counter-box">
+
+                        <i class="bi bi-mountain"></i>
+
+                        <h2 class="counter" data-target="14">0</h2>
+
+                        <p>National Parks</p>
+
+                    </div>
+
+                </div>
+
+                <div class="col-6 col-lg-3">
+
+                    <div class="counter-box">
+
+                        <i class="bi bi-tree"></i>
+
+                        <h2 class="counter" data-target="100">0</h2>
+
+                        <p>Nature To Explore</p>
+
+                    </div>
+
+                </div>
+
+                <div class="col-6 col-lg-3">
+
+                    <div class="counter-box">
+
+                        <i class="bi bi-heart"></i>
+
+                        <h2 class="counter" data-target="100">0</h2>
+
+                        <p>Beautiful Memories</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =============== CULTURE SECTION =============== -->
+
+    <section class="culture-section" id="culture">
+
+        <div class="container">
+
+            <div class="row align-items-center g-5">
+
+                <div class="col-lg-6">
+
+                    <img class="culture-image" src="./Assests/Nature and culture_flg.jpg" alt="Nature and culture">
+
+                </div>
+
+                <div class="col-lg-6">
+
+                    <p class="small-heading">OUR HERITAGE</p>
+
+                    <h2>Experience Nature And Culture</h2>
+
+                    <p>
+                        New Zealand is home to the Māori people,
+                        whose language, traditions, art and history
+                        are an important part of the country's identity.
+                    </p>
+
+                    <p>
+                        The country also offers remarkable natural
+                        environments, unique plants and wildlife,
+                        and beautiful places to explore.
+                    </p>
+
+                    <a href="contact.html" class="read-btn">
+                        Explore With Us →
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!--======Services Seaction ==========-->
+    <section class="service-hero">
+
+        <div class="hero-overlay"></div>
+
+        <div class="container hero-content">
+
+            <p>WHAT WE OFFER</p>
+
+            <h1>OUR <span>SERVICES</span></h1>
+
+            <h5>
+                Creative Solutions For Your Digital Success
+            </h5>
+            <a href="all-services.html" class="btn hero-btn">
+                Explore Services
+                <i class="bi bi-arrow-down"></i>
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- =============== SERVICE INTRODUCTION =============== -->
+
+    <section class="service-intro">
+
+        <div class="container text-center">
+
+            <p class="small-title">OUR EXPERTISE</p>
+
+            <h2>Services That Grow Your Business</h2>
+
+            <p class="intro-description">
+
+                We provide creative digital solutions,
+                modern website development, professional
+                web design and digital marketing services.
+
+            </p>
+
+        </div>
+
+    </section>
+
+    <!--======Web Development Seaction==========-->
+    <section class="service-detail" id="web-development">
+
+        <div class="container">
+
+            <div class="row align-items-center g-5">
+
+                <div class="col-lg-6">
+
+                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=900" alt="Web Development"
+                        class="service-image">
+
+                </div>
+
+                <div class="col-lg-6">
+
+                    <span class="service-number">01 / OUR SERVICES</span>
+
+                    <h2>Web Development</h2>
+
+                    <p>
+                        We create modern, responsive and
+                        user-friendly websites using the
+                        latest web technologies.
+                    </p>
+
+                    <ul class="service-list">
+
+                        <li>Custom Website Development</li>
+                        <li>Responsive Website Development</li>
+                        <li>E-commerce Website</li>
+                        <li>Frontend Development</li>
+                        <li>Website Maintenance</li>
+
+                    </ul>
+
+                    <a href="contact.html" class="service-btn">
+                        Get Started →
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--====== Web Design seaction==========-->
+    <section class="service-detail light-section" id="web-design">
+
+        <div class="container">
+
+            <div class="row align-items-center g-5">
+
+                <div class="col-lg-6 order-lg-2">
+
+                    <img src="https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?w=900" alt="Web Design"
+                        class="service-image">
+
+                </div>
+
+                <div class="col-lg-6 order-lg-1">
+
+                    <span class="service-number">02 / OUR SERVICES</span>
+
+                    <h2>Web Design</h2>
+
+                    <p>
+                        We design attractive, creative and
+                        professional websites that give
+                        visitors an excellent user experience.
+                    </p>
+
+                    <ul class="service-list">
+
+                        <li>Modern Website Design</li>
+                        <li>UI / UX Design</li>
+                        <li>Landing Page Design</li>
+                        <li>Responsive Layout Design</li>
+                        <li>Website Redesign</li>
+
+                    </ul>
+
+                    <a href="contact.html" class="service-btn">
+                        Get Started →
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--======Digital Marketing seaction==========-->
+    <section class="service-detail" id="digital-marketing">
+
+        <div class="container">
+
+            <div class="row align-items-center g-5">
+
+                <div class="col-lg-6">
+
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=900"
+                        alt="Digital Marketing" class="service-image">
+
+                </div>
+
+                <div class="col-lg-6">
+
+                    <span class="service-number">03 / OUR SERVICES</span>
+
+                    <h2>Digital Marketing</h2>
+
+                    <p>
+                        Grow your online presence and reach
+                        more customers with effective digital
+                        marketing strategies.
+                    </p>
+
+                    <ul class="service-list">
+
+                        <li>Social Media Marketing</li>
+                        <li>Google Advertising</li>
+                        <li>Content Marketing</li>
+                        <li>Email Marketing</li>
+                        <li>Online Brand Promotion</li>
+
+                    </ul>
+
+                    <a href="contact.html" class="service-btn">
+                        Get Started →
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--======SEO Services Seaction==========-->
+    <section class="service-detail light-section" id="seo-services">
+
+        <div class="container">
+
+            <div class="row align-items-center g-5">
+
+                <div class="col-lg-6 order-lg-2">
+
+                    <img src="https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?w=900" alt="SEO Services"
+                        class="service-image">
+
+                </div>
+
+                <div class="col-lg-6 order-lg-1">
+
+                    <span class="service-number">04 / OUR SERVICES</span>
+
+                    <h2>SEO Services</h2>
+
+                    <p>
+                        Improve your website visibility
+                        on search engines and attract
+                        relevant organic traffic.
+                    </p>
+
+                    <ul class="service-list">
+
+                        <li>On-Page SEO</li>
+                        <li>Off-Page SEO</li>
+                        <li>Technical SEO</li>
+                        <li>Keyword Research</li>
+                        <li>Website SEO Audit</li>
+
+                    </ul>
+
+                    <a href="contact.html" class="service-btn">
+                        Get Started →
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--====== All Services Seaction==========-->
+    <section class="all-services" id="all-services">
+
+        <div class="container">
+
+            <div class="section-heading text-center">
+
+                <p>OUR COMPLETE SOLUTIONS</p>
+
+                <h2>All Services</h2>
+
                 <span>
-                    <i class="fa-solid fa-envelope"></i>
-                    mark27@gmail.com
+                    Everything you need to build and grow
+                    your online business.
                 </span>
+
+            </div>
+
+
+            <div class="row g-4">
+
+                <div class="col-lg-3 col-md-6">
+
+                    <div class="service-card">
+
+                        <i class="bi bi-code-slash"></i>
+
+                        <h4>Web Development</h4>
+
+                        <p>
+                            Modern and responsive websites.
+                        </p>
+
+                        <a href="web-development.html">
+                            View Service →
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-3 col-md-6">
+
+                    <div class="service-card">
+
+                        <i class="bi bi-palette"></i>
+
+                        <h4>Web Design</h4>
+
+                        <p>
+                            Beautiful and creative website layouts.
+                        </p>
+
+                        <a href="web-design.html">
+                            View Service →
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-3 col-md-6">
+
+                    <div class="service-card">
+
+                        <i class="bi bi-megaphone"></i>
+
+                        <h4>Digital Marketing</h4>
+
+                        <p>
+                            Promote your business online.
+                        </p>
+
+                        <a href="digital-marketing.html">
+                            View Service →
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-3 col-md-6">
+
+                    <div class="service-card">
+
+                        <i class="bi bi-graph-up-arrow"></i>
+
+                        <h4>SEO Services</h4>
+
+                        <p>
+                            Improve your search engine visibility.
+                        </p>
+
+                        <a href="seo-services.html">
+                            View Service →
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =============== CONTACT SECTION =============== -->
+    <section class="contact-section" id="contact">
+
+        <div class="container text-center">
+
+            <p>LET'S WORK TOGETHER</p>
+
+            <h2>Ready To Grow Your Business?</h2>
+
+            <span>
+                Contact us today and let's create something amazing.
+            </span>
+
+            <br>
+
+            <a href="mailto:info@example.com" class="contact-button">
+                Contact Us →
+            </a>
+
+        </div>
+
+    </section>
+
+    <!--======Gallery Seaction==========-->
+    <!-- =============== HERO SECTION =============== -->
+
+    <section class="gallery-hero">
+
+        <div class="hero-overlay"></div>
+
+        <div class="container hero-content">
+
+            <p>EXPLORE THE BEAUTY OF AOTEAROA</p>
+
+            <h1>OUR <span>GALLERY</span></h1>
+
+            <h5>
+                Beautiful Destinations, Amazing Adventures
+                And Delicious Food.
+            </h5>
+
+            <a href="gallery.html" class="btn hero-btn">
+                Explore Gallery
+                <i class="bi bi-arrow-down"></i>
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- =============== GALLERY INTRO =============== -->
+
+    <section class="gallery-intro" id="gallery">
+
+        <div class="container text-center">
+
+            <p class="small-title">OUR PHOTO COLLECTION</p>
+
+            <h2>Discover New Zealand</h2>
+
+            <p class="intro-text">
+                Explore the breathtaking landscapes, famous
+                tourist destinations, exciting adventures and
+                traditional delicious food of New Zealand.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- =============== FILTER BUTTONS =============== -->
+
+    <section class="gallery-section">
+
+        <div class="container">
+
+            <div class="filter-buttons text-center">
+
+                <button class="filter-btn active" data-filter="all">
+                    All Images
+                </button>
+
+                <button class="filter-btn" data-filter="tourism">
+                    Tourism
+                </button>
+
+                <button class="filter-btn" data-filter="nature">
+                    Nature
+                </button>
+
+                <button class="filter-btn" data-filter="adventure">
+                    Adventure
+                </button>
+
+                <button class="filter-btn" data-filter="food">
+                    Food
+                </button>
+
+            </div>
+
+
+            <!-- =============== IMAGE GALLERY =============== -->
+
+            <div class="row g-4 gallery-container">
+
+                <!-- Tourism 1 -->
+
+                <div class="col-lg-4 col-md-6 gallery-item" data-category="tourism nature">
+
+                    <div class="gallery-card">
+
+                        <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=900"
+                            alt="New Zealand Lake Landscape">
+
+                        <div class="image-info">
+
+                            <h4>Lake Landscape</h4>
+
+                            <p>Beautiful natural scenery</p>
+
+                            <button class="view-btn">
+                                <i class="bi bi-zoom-in"></i> View Image
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Tourism 2 -->
+
+                <div class="col-lg-4 col-md-6 gallery-item" data-category="tourism nature">
+
+                    <div class="gallery-card">
+
+                        <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=900"
+                            alt="Mountain View">
+
+                        <div class="image-info">
+
+                            <h4>Mountain Beauty</h4>
+
+                            <p>Beautiful mountain scenery</p>
+
+                            <button class="view-btn">
+                                <i class="bi bi-zoom-in"></i> View Image
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Tourism 3 -->
+
+                <div class="col-lg-4 col-md-6 gallery-item" data-category="tourism adventure">
+
+                    <div class="gallery-card">
+
+                        <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=900"
+                            alt="Lake and Mountains">
+
+                        <div class="image-info">
+
+                            <h4>Queenstown Views</h4>
+
+                            <p>Explore beautiful destinations</p>
+
+                            <button class="view-btn">
+                                <i class="bi bi-zoom-in"></i> View Image
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Tourism 4 -->
+
+                <div class="col-lg-4 col-md-6 gallery-item" data-category="tourism nature">
+
+                    <div class="gallery-card">
+
+                        <img src="https://images.unsplash.com/photo-1511497584788-876760111969?w=900"
+                            alt="Green Forest">
+
+                        <div class="image-info">
+
+                            <h4>Green Forest</h4>
+
+                            <p>Peaceful natural environment</p>
+
+                            <button class="view-btn">
+                                <i class="bi bi-zoom-in"></i> View Image
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Tourism 5 -->
+
+                <div class="col-lg-4 col-md-6 gallery-item" data-category="tourism adventure">
+
+                    <div class="gallery-card">
+
+                        <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=900"
+                            alt="Outdoor Travel">
+
+                        <div class="image-info">
+
+                            <h4>Outdoor Adventure</h4>
+
+                            <p>Enjoy outdoor activities</p>
+
+                            <button class="view-btn">
+                                <i class="bi bi-zoom-in"></i> View Image
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Tourism 6 -->
+
+                <div class="col-lg-4 col-md-6 gallery-item" data-category="tourism nature">
+
+                    <div class="gallery-card">
+
+                        <img src="https://images.unsplash.com/photo-1473116763249-2faaef81ccda?w=900" alt="Waterfall">
+
+                        <div class="image-info">
+
+                            <h4>Beautiful Waterfall</h4>
+
+                            <p>Discover natural wonders</p>
+
+                            <button class="view-btn">
+                                <i class="bi bi-zoom-in"></i> View Image
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- FOOD GALLERY -->
+
+                <!-- Food 1 -->
+
+                <div class="col-lg-4 col-md-6 gallery-item" data-category="food">
+
+                    <div class="gallery-card">
+
+                        <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?w=900" alt="Sweet Dessert">
+
+                        <div class="image-info">
+
+                            <h4>Sweet Dessert</h4>
+
+                            <p>Delicious New Zealand treats</p>
+
+                            <button class="view-btn">
+                                <i class="bi bi-zoom-in"></i> View Image
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Food 2 -->
+
+                <div class="col-lg-4 col-md-6 gallery-item" data-category="food">
+
+                    <div class="gallery-card">
+
+                        <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=900"
+                            alt="Pizza and Food">
+
+                        <div class="image-info">
+
+                            <h4>Local Food</h4>
+
+                            <p>Enjoy tasty food experiences</p>
+
+                            <button class="view-btn">
+                                <i class="bi bi-zoom-in"></i> View Image
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Food 3 -->
+
+                <div class="col-lg-4 col-md-6 gallery-item" data-category="food">
+
+                    <div class="gallery-card">
+
+                        <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=900" alt="Fresh Food">
+
+                        <div class="image-info">
+
+                            <h4>Fresh Food</h4>
+
+                            <p>Fresh and healthy meals</p>
+
+                            <button class="view-btn">
+                                <i class="bi bi-zoom-in"></i> View Image
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Food 4 -->
+
+                <div class="col-lg-4 col-md-6 gallery-item" data-category="food">
+
+                    <div class="gallery-card">
+
+                        <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=900" alt="Grilled Food">
+
+                        <div class="image-info">
+
+                            <h4>Grilled Food</h4>
+
+                            <p>Delicious grilled dishes</p>
+
+                            <button class="view-btn">
+                                <i class="bi bi-zoom-in"></i> View Image
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Food 5 -->
+
+                <div class="col-lg-4 col-md-6 gallery-item" data-category="food">
+
+                    <div class="gallery-card">
+
+                        <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=900" alt="Fruit Cake">
+
+                        <div class="image-info">
+
+                            <h4>Fruit Dessert</h4>
+
+                            <p>Sweet and tasty desserts</p>
+
+                            <button class="view-btn">
+                                <i class="bi bi-zoom-in"></i> View Image
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Food 6 -->
+
+                <div class="col-lg-4 col-md-6 gallery-item" data-category="food">
+
+                    <div class="gallery-card">
+
+                        <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=900"
+                            alt="Healthy Salad">
+
+                        <div class="image-info">
+
+                            <h4>Fresh Salad</h4>
+
+                            <p>Fresh and colourful food</p>
+
+                            <button class="view-btn">
+                                <i class="bi bi-zoom-in"></i> View Image
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =============== IMAGE POPUP MODAL =============== -->
+
+    <div class="modal fade" id="imageModal" tabindex="-1">
+
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <h5 class="modal-title">Gallery Preview</h5>
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal">
+                    </button>
+
+                </div>
+
+                <div class="modal-body text-center">
+
+                    <img src="" id="modalImage" class="img-fluid" alt="Gallery Preview">
+
+                </div>
 
             </div>
 
@@ -45,499 +2010,1992 @@
     </div>
 
 
-    <!-- ================= MAIN HEADER ================= -->
+    <!-- =============== CONTACT SECTION =============== -->
 
-    <header class="header">
+    <section class="contact-section" id="contact">
 
-        <div class="header-container">
+        <div class="container text-center">
 
-            <!-- Logo -->
-            <div class="logo">
-                <span class="Solution@">Solution@</span><span class="markup">Markup</span>
+            <h2>Explore New Zealand With Us</h2>
+
+            <p>
+                Discover amazing destinations and
+                delicious food experiences.
+            </p>
+
+            <a href="mailto:info@example.com" class="contact-btn">
+                Contact Us
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!--======Food Video Seaction==========-->
+    <!-- =============== HERO VIDEO SECTION =============== -->
+
+    <section class="food-hero">
+
+        <video class="hero-video" autoplay muted loop playsinline>
+            <source src="./Video Assets/Food Video home bar.mp4" type="video/mp4">
+        </video>
+
+        <div class="hero-overlay"></div>
+
+        <div class="container hero-content">
+
+            <p>DISCOVER THE TASTE OF AOTEAROA</p>
+
+            <h1>NEW ZEALAND <span>FOOD VIDEOS</span></h1>
+
+            <h5>
+                Taste The Tradition. Experience The Flavours.
+            </h5>
+
+            <a href="food-videos.html" class="btn hero-btn">
+                Watch Food Videos
+                <i class="bi bi-play-circle"></i>
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- =============== INTRODUCTION =============== -->
+
+    <section class="food-intro">
+
+        <div class="container text-center">
+
+            <p class="small-title">FOOD & CULTURE</p>
+
+            <h2>Explore Delicious New Zealand Food</h2>
+
+            <p>
+                Discover traditional Māori cooking, fresh seafood,
+                famous desserts and delicious New Zealand dishes
+                through our food video collection.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- =============== VIDEO GALLERY =============== -->
+
+    <section class="food-video-section" id="food-videos">
+
+        <div class="container">
+
+            <div class="section-heading text-center">
+
+                <p>OUR VIDEO COLLECTION</p>
+
+                <h2>Explore Food Videos</h2>
+
+                <span>
+                    Watch, discover and enjoy the flavours of New Zealand.
+                </span>
+
             </div>
 
 
-            <!-- Navigation -->
-            <nav class="nav-bar">
+            <!-- FILTER BUTTONS -->
 
-                <a href="#" class="active">Home</a>
-                <a href="#">About</a>
-                <a href="#">
-                    Services <span class="arrow">▼</span>
-                </a>
-                <ul class="dropdown-menu">
+            <div class="filter-buttons text-center">
 
-                    <li><a href="mountains.html">New Zealand Mountains</a></li>
+                <button class="filter-btn active" data-filter="all">
+                    All Videos
+                </button>
 
-                    <li><a href="lakes.html">Beautiful Lakes</a></li>
+                <button class="filter-btn" data-filter="traditional">
+                    Traditional Food
+                </button>
 
-                    <li><a href="beaches.html">Golden Beaches</a></li>
+                <button class="filter-btn" data-filter="seafood">
+                    Seafood
+                </button>
 
-                    <li><a href="adventure.html">Adventure Tours</a></li>
+                <button class="filter-btn" data-filter="dessert">
+                    Desserts
+                </button>
 
-                    <li><a href="packages.html">Holiday Packages</a></li>
-
-                </ul>
-
-                </li>
-
-
-                <a href="#">Blog</a>
-                <li class="dropdown">
-
-                    <a href="#">
-                        Training <span class="arrow">▼</span>
-                    </a>
-                    <ul class="dropdown-menu">
-
-                        <li>
-                            <a href="#">FullStack Development</a>
-                        </li>
-
-                        <li>
-                            <a href="#">Digital Marketing</a>
-                        </li>
-
-                    </ul>
-
-                </li>
-
-                <a href="#">Contact</a>
-
-            </nav>
-
-
-            <!-- Book Service -->
-            <div class="button-container">
-
-                <a href="#" class="book-btn">
-                    Registation
-                </a>
+                <button class="filter-btn" data-filter="street">
+                    Street Food
+                </button>
 
             </div>
-            <div class="Registation-box">
-                <h2>Registation form</h2>
-                <input type="text" placeholder="Enter First name">
-                <input type="text" placeholder="Enter last name">
-                <input type="tel" placeholder="Phone Number" required>
-                <input type="text" placeholder="Country">
-                <input type="password" placeholder="Password" required>
-                <input type="password" placeholder="Confirm Password" required>
-                <button type="submit">Register Now</button>
 
-                </form>
 
-                <br>
+            <!-- VIDEO CARDS -->
+            <div class="row g-4 video-container">
 
-                <a href="index.html" class="back-btn">← Back Home</a>
+                <!-- VIDEO 1 -->
+
+                <div class="col-lg-4 col-md-6 video-item" data-category="traditional">
+
+                    <div class="video-card">
+
+                        <div class="video-wrapper">
+
+                            <video controls preload="metadata" poster="images/food1.jpg">
+
+                                <source src="./Video Assets/Traditional food Video.mp4" type="video/mp4">
+
+                                Your browser does not support video.
+
+                            </video>
+
+                            <span class="video-category">
+                                Traditional Food
+                            </span>
+
+                        </div>
+
+                        <div class="video-info">
+
+                            <h4>Traditional Māori Hāngī</h4>
+
+                            <p>
+                                Discover the traditional earth-oven
+                                cooking method of Māori culture.
+                            </p>
+
+                            <span>
+                                <i class="bi bi-play-circle"></i>
+                                Food & Culture
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- VIDEO 2 -->
+
+                <div class="col-lg-4 col-md-6 video-item" data-category="seafood">
+
+                    <div class="video-card">
+
+                        <div class="video-wrapper">
+
+                            <video controls preload="metadata" poster="images/food2.jpg">
+
+                                <source src="./Video Assets/Seafood Food Video.mp4" type="video/mp4">
+
+                                Your browser does not support video.
+
+                            </video>
+
+                            <span class="video-category">
+                                Seafood
+                            </span>
+
+                        </div>
+
+                        <div class="video-info">
+
+                            <h4>Green-Lipped Mussels</h4>
+
+                            <p>
+                                Explore New Zealand's famous
+                                green-lipped mussel dishes.
+                            </p>
+
+                            <span>
+                                <i class="bi bi-play-circle"></i>
+                                Seafood Special
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- VIDEO 3 -->
+
+                <div class="col-lg-4 col-md-6 video-item" data-category="dessert">
+
+                    <div class="video-card">
+
+                        <div class="video-wrapper">
+
+                            <video controls preload="metadata" poster="images/food3.jpg">
+
+                                <source src="./Video Assets/Desserts Food Video.mp4" type="video/mp4">
+
+                                Your browser does not support video.
+
+                            </video>
+
+                            <span class="video-category">
+                                Desserts
+                            </span>
+
+                        </div>
+
+                        <div class="video-info">
+
+                            <h4>New Zealand Pavlova</h4>
+
+                            <p>
+                                Watch how to prepare a beautiful
+                                pavlova with fresh fruits and cream.
+                            </p>
+
+                            <span>
+                                <i class="bi bi-play-circle"></i>
+                                Sweet Desserts
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- VIDEO 4 -->
+
+                <div class="col-lg-4 col-md-6 video-item" data-category="street">
+
+                    <div class="video-card">
+
+                        <div class="video-wrapper">
+
+                            <video controls preload="metadata" poster="images/food4.jpg">
+
+                                <source src="./Video Assets/Street Food Video.mp4" type="video/mp4">
+
+                                Your browser does not support video.
+
+                            </video>
+
+                            <span class="video-category">
+                                Street Food
+                            </span>
+
+                        </div>
+
+                        <div class="video-info">
+
+                            <h4>New Zealand Meat Pie</h4>
+
+                            <p>
+                                Enjoy a classic savoury New Zealand
+                                bakery favourite.
+                            </p>
+
+                            <span>
+                                <i class="bi bi-play-circle"></i>
+                                Local Favourite
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- VIDEO 5 -->
+
+                <div class="col-lg-4 col-md-6 video-item" data-category="street">
+
+                    <div class="video-card">
+
+                        <div class="video-wrapper">
+
+                            <video controls preload="metadata" poster="images/food5.jpg">
+
+                                <source src="./Video Assets/Street Food.1 Video.mp4" type="video/mp4">
+
+                                Your browser does not support video.
+
+                            </video>
+
+                            <span class="video-category">
+                                Street Food
+                            </span>
+
+                        </div>
+
+                        <div class="video-info">
+
+                            <h4>Fish And Chips</h4>
+
+                            <p>
+                                Discover the popular fish and chips
+                                meal enjoyed across New Zealand.
+                            </p>
+
+                            <span>
+                                <i class="bi bi-play-circle"></i>
+                                Popular Food
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- VIDEO 6 -->
+
+                <div class="col-lg-4 col-md-6 video-item" data-category="traditional">
+
+                    <div class="video-card">
+
+                        <div class="video-wrapper">
+
+                            <video controls preload="metadata" poster="images/food6.jpg">
+
+                                <source src="./Video Assets/food video.2 Video.mp4" type="video/mp4">
+
+                                Your browser does not support video.
+
+                            </video>
+
+                            <span class="video-category">
+                                Traditional Food
+                            </span>
+
+                        </div>
+
+                        <div class="video-info">
+
+                            <h4>New Zealand Local Food</h4>
+
+                            <p>
+                                Explore different flavours and
+                                local dishes from New Zealand.
+                            </p>
+
+                            <span>
+                                <i class="bi bi-play-circle"></i>
+                                Local Cuisine
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
 
             </div>
 
         </div>
-        <!--======Hero==========-->
-        <section class="hero">
 
-            <!-- Dark Blue Overlay -->
-            <div class="overlay"></div>
+    </section>
 
-            <!-- Hero Content -->
-            <div class="hero-content">
+    <!--======Blog Seaction==========-->
+    <!-- =============== HERO SECTION =============== -->
 
-                <h1>
-                    Welcome to my website
-                </h1>
+    <section class="blog-hero">
 
-                <p class="text">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam quos eum eveniet blanditiis
-                    molestias dolorem incidunt debitis delectus minus nostrum voluptate labore asperiores accusamus, id
-                    quis, facere consequatur soluta tenetur.
-                </p>
-                <br>
-                <br>
+        <div class="hero-overlay"></div>
 
+        <div class="container hero-content">
 
-                <h3>
-                    Natural Beauty of New Zealand
-                </h3>
+            <p>TRAVEL STORIES & INSPIRATION</p>
 
-                <p class="text">
-                    New Zealand is one of the most beautiful countries in the world.
-                    It is famous for its green mountains, crystal-clear lakes, waterfalls,
-                    forests, and peaceful beaches. Visitors can enjoy hiking, camping,
-                    boating, and exploring breathtaking natural landscapes. The country's
-                    clean environment and stunning scenery make it a perfect destination
-                    for nature lovers and adventure seekers.
-                </p>
+            <h1>OUR TRAVEL <span>BLOG</span></h1>
 
-            </div>
+            <h5>
+                Explore New Zealand Through Stories,
+                Experiences and Adventures.
+            </h5>
 
-            </div>
-            <br>
-            <br>
-            <!--======Our Services==========-->
-            <section class="services">
+            <a href="blogs.html" class="btn hero-btn">
+                Explore Blogs
+                <i class="bi bi-arrow-down"></i>
+            </a>
 
-                <div class="title">
-                    <h1>Our Premium Services</h1>
-                    <p>Professional solutions for every customer.</p>
-                </div>
+        </div>
 
-                <div class="cards">
+    </section>
 
-                    <div class="card">
-                        <h3>Website Design</h3>
-                        <p>Modern responsive websites with attractive UI.</p>
-                        <a href="#">Read More</a>
-                    </div>
+    <!-- =============== BLOG INTRO =============== -->
 
-                    <div class="card">
-                        <h3>SEO Optimization</h3>
-                        <p>Improve your Google ranking and website traffic.</p>
-                        <a href="#">Read More</a>
-                    </div>
+    <section class="blog-intro">
 
-                    <div class="card">
-                        <h3>Digital Marketing</h3>
-                        <p>Grow your business with online marketing.</p>
-                        <a href="#">Read More</a>
-                    </div>
+        <div class="container text-center">
 
-                    <div class="card">
-                        <h3>Content Writing</h3>
-                        <p>Professional articles and blog writing.</p>
-                        <a href="#">Read More</a>
-                    </div>
+            <p class="small-title">WELCOME TO OUR BLOG</p>
 
-                    <div class="card">
-                        <h3>Graphic Design</h3>
-                        <p>Creative logo, banner and social media posts.</p>
-                        <a href="#">Read More</a>
-                    </div>
+            <h2>Discover Stories of New Zealand</h2>
 
-                    <div class="card">
-                        <h3>Support</h3>
-                        <p>24/7 customer support for all clients.</p>
-                        <a href="#">Read More</a>
-                    </div>
+            <p class="intro-text">
 
-                </div>
+                Find travel inspiration, discover amazing places,
+                explore local food and experience the natural
+                beauty and culture of New Zealand.
 
-            </section>
-            <br>
-            <br>
-            <!--======Call To Action==========-->
-            <section class="cta">
-
-                <div class="icon">
-                    <i class="fa-solid fa-mountain-sun"></i>
-                </div>
-
-                <h1>Book Your Dream Trip to New Zealand</h1>
-
-                <p>
-                    Discover New Zealand's breathtaking mountains, crystal-clear lakes,
-                    beautiful beaches, and unforgettable adventures. Our travel experts
-                    will help you plan the perfect holiday with affordable packages and
-                    personalized service.
-                </p>
-
-                <a href="contact.html" class="btn" target="_blank">BOOK NOW</a>
-
-            </section>
-
-            <!--======Google Map==========-->
-            <section class="nz-section">
-
-                <div class="nz-image">
-                    <img src="./Assests/NZ-map_flg.jpg" alt="New Zealand">
-                </div>
-
-                <div class="nz-content">
-                    <h2>Explore the Beauty of New Zealand</h2>
-
-                    <p>
-                        At <strong>New Zealand Travel</strong>, we help visitors discover the
-                        country's most breathtaking destinations. From the snow-capped
-                        mountains of the South Island to the stunning beaches of the North
-                        Island, we create unforgettable travel experiences for every
-                        traveler.
-                    </p>
-
-                    <p>
-                        Our tours cover famous attractions including
-                        <strong>Queenstown, Auckland, Rotorua, Christchurch, Milford Sound,
-                            Lake Tekapo, Mount Cook, Wanaka, Franz Josef Glacier</strong> and
-                        many more. Whether you're looking for adventure, nature, culture,
-                        or relaxation, we have the perfect holiday package for you.
-                    </p>
-
-                    <a href="contact.html" class="btn" target="_blank">Book Your Tour</a>
-
-                </div>
-            </section>
-            <!--======Card==========-->
-            <section class="nature">
-
-                <h1>Explore New Zealand Nature</h1>
-
-                <div class="card-box">
-
-                    <div class="card">
-                        <img src="./Assests/Moutainhill_flg.jpg" alt="Moutainhill_flg" ">
-                        <h2>Beautiful Mountains</h2>
-                        <p>Enjoy New Zealand's stunning mountain landscapes.
-                            New Zealand is famous for its snow-covered mountains including Mount Cook,
-                            Southern Alps, and breathtaking hiking trails.
-                        </p>
-                        <a href=" mountains.html" class="btn" target="_blank">Read More</a>
-                    </div>
-
-                    <div class="card">
-                        <img src="./Assests/Lake hill_flg.jpg" alt="Lake hill">
-                        <h2>Crystal Lakes</h2>
-                        <p>Visit the world's most beautiful blue lakes.
-                            Lake Tekapo, Lake Wakatipu and Lake Taupo are among the most beautiful lakes
-                            in New Zealand.
-                        </p>
-                        <a href="lakes.html" class="btn" target="_blank">Read More</a>
-                    </div>
-
-                    <div class="card">
-                        <img src="./Assests/beaches_flg.jpg" alt="beaches_flg">
-                        <h2>Golden Beaches</h2>
-                        <p>Relax on New Zealand's amazing beaches.Discover white sandy beaches, blue oceans and peaceful
-                            coastal destinations
-                            across New Zealand.</p>
-                        <a href="beaches.html" class="btn" target="_blank">Read More</a>
-                    </div>
-
-                    <div class="card">
-                        <img src="./Assests/rotorua _flg.jpg" alt="rotorua_flg">
-                        <h2>Rotorua</h2>
-                        <p>Rotorua is famous for geothermal parks, hot springs,
-                            mud pools, and traditional Māori cultural experiences.</p>
-
-                        <a href="rotorua.html" class="btn" target="_blank">Read More</a>
-                    </div>
-
-                    <div class="card">
-                        <img src="./Assests/queenstown _flg.jpg" alt="Queenstown_flg">
-                        <h2>Queenstown</h2>
-                        <p>Queenstown is famous for bungee jumping, skiing, hiking,
-                            and beautiful Lake Wakatipu. It is known as the adventure capital of New Zealand. </p>
-
-                        <a href="queenstown.html" class="btn" target="_blank">Read More</a>
-                    </div>
-
-                    <div class="card">
-                        <img src="./Assests/milford _flg.jpg" alt="Milford_flg">
-                        <h2>Milford Sound</h2>
-                        <p>Milford Sound is one of New Zealand's most spectacular natural attractions.
-                            It features dramatic mountains, waterfalls, rainforests, and boat cruises.
-                            Visitors from around the world come here to experience its breathtaking beauty.
-                        </p>
-
-                        <a href="Milford.html" class="btn" target="_blank">Read More</a>
-                    </div>
-
-                    <p class="sub-title">PRICING PLAN</p>
-
-                    <h1>Simple prices, flexible<br>options & nothing hidden</h1>
-
-                    <div class="cards">
-
-                        <div class="card">
-                            <h2>Free</h2>
-                            <div class="price">$0</div>
-
-                            <ul>
-                                <li>15 Users</li>
-                                <li>Feature 2</li>
-                                <li>Feature 3</li>
-                                <li>Feature 4</li>
-                            </ul>
-
-                            <a href="#">GET PLAN</a>
-                        </div>
-
-                        <div class="card">
-                            <h2>Individual</h2>
-                            <div class="price">$29</div>
-
-                            <ul>
-                                <li>15 Users</li>
-                                <li>Feature 2</li>
-                                <li>Feature 3</li>
-                                <li>Feature 4</li>
-                            </ul>
-
-                            <a href="#">GET PLAN</a>
-                        </div>
-
-                        <div class="card active">
-                            <h2>Business</h2>
-                            <div class="price">$59</div>
-
-                            <ul>
-                                <li>15 Users</li>
-                                <li>Feature 2</li>
-                                <li>Feature 3</li>
-                                <li>Feature 4</li>
-                            </ul>
-
-                            <a href="#">GET PLAN</a>
-                        </div>
-
-                        <div class="card">
-                            <h2>Premium</h2>
-                            <div class="price">$89</div>
-
-                            <ul>
-                                <li>15 Users</li>
-                                <li>Feature 2</li>
-                                <li>Feature 3</li>
-                                <li>Feature 4</li>
-                            </ul>
-
-                            <a href="#">GET PLAN</a>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </section>
-
-            <!--======Contact Info==========-->
-            <h5>CONTACT US</h5>
-
-            <h1>Plan Your New Zealand <span>Adventure</span></h1>
-
-            <p>
-                Have questions about your trip? Our friendly travel experts are here to help you plan the perfect New
-                Zealand holiday.
             </p>
-            <div class="contact-box">
 
-                <h3>📞 Phone</h3>
-                <p>+643 442 0000</p>
+        </div>
 
-                <h3>✉ Email</h3>
-                <p>mark27Nz@gmail.com</p>
+    </section>
 
-                <h3>📍 Office</h3>
-                <p>Queen Street, Auckland, New Zealand</p>
+    <!-- =============== BLOG SECTION =============== -->
 
-                <h3>🕒 Office Hours</h3>
-                <p>Monday - Saturday : 9:00 AM - 6:00 PM</p>
+    <section class="blog-section" id="blogs">
+
+        <div class="container">
+
+            <div class="section-heading text-center">
+
+                <p>OUR LATEST ARTICLES</p>
+
+                <h2>Explore Our Travel Blogs</h2>
+
+                <span>
+                    Travel stories, destination guides and food experiences.
+                </span>
 
             </div>
-            <from>
-                <input type="text" placeholder="First Name">
 
-                <input type="text" placeholder="Last Name">
 
-                <input type="email" placeholder="Email Address">
+            <!-- SEARCH BAR -->
 
-                <input type="tel" placeholder="Phone Number">
+            <div class="search-box mx-auto">
 
-                <select>
-                    <option>Select Tour Package</option>
-                    <option>North Island Tour</option>
-                    <option>South Island Tour</option>
-                    <option>Adventure Tour</option>
-                    <option>Honeymoon Package</option>
-                    <option>Family Holiday</option>
-                </select>
+                <input type="text" id="blogSearch" placeholder="Search your favourite blog...">
 
-                <input type="text" placeholder="Your City">
+                <button id="searchButton">
+                    <i class="bi bi-search"></i>
+                </button>
 
-                <textarea placeholder="Tell us about your travel plan"></textarea>
+            </div>
 
-                <button>BOOK YOUR TOUR</button>
-            </from>
 
-            <!--======Footer Tag==========-->
+            <!-- CATEGORY FILTER -->
 
-            <footer class="footer">
+            <div class="filter-buttons text-center">
 
-                <div class="footer-container">
+                <button class="filter-btn active" data-filter="all">
+                    All Blogs
+                </button>
 
-                    <!-- Logo -->
-                    <div class="footer-box">
-                        <h2>🌿 Solution@MarkUp</h2>
-                        <p>
-                            Discover the beauty of New Zealand with unforgettable
-                            adventures, mountains, lakes, and beaches.
-                        </p>
-                    </div>
+                <button class="filter-btn" data-filter="travel">
+                    Travel
+                </button>
 
-                    <!-- Quick Links -->
-                    <div class="footer-box">
-                        <h3>Quick Links</h3>
+                <button class="filter-btn" data-filter="nature">
+                    Nature
+                </button>
 
-                        <a href="index.html">Home</a>
-                        <a href="about.html">About</a>
-                        <a href="services.html">Services</a>
-                        <a href="Blog.html">Blog</a>
-                        <a href="training.html">Traninig</a>
-                        <a href="contact.html">Contact</a>
-                    </div>
+                <button class="filter-btn" data-filter="food">
+                    Food
+                </button>
 
-                    <!-- Top Destinations -->
-                    <div class="footer-box">
-                        <h3>Top Places</h3>
+                <button class="filter-btn" data-filter="adventure">
+                    Adventure
+                </button>
 
-                        <a href="#">Milford Sound</a>
-                        <a href="#">Queenstown</a>
-                        <a href="#">Lake Tekapo</a>
-                        <a href="#">Rotorua</a>
-                        <a href="#">Mount Cook</a>
-                    </div>
+            </div>
 
-                    <!-- Contact -->
-                    <div class="footer-box">
-                        <h3>Contact</h3>
+            <!-- BLOG CARDS -->
 
-                        <p>📍 Auckland, New Zealand</p>
-                        <p>📞 +64 21 123 4567</p>
-                        <p>✉ info@kiwitravels.co.nz</p>
+            <div class="row g-4 blog-container">
 
-                        <!-- Bottom Footer -->
 
-                        <div class="footer-bottom">
+                <!-- BLOG 1 -->
+
+                <div class="col-lg-4 col-md-6 blog-item" data-category="travel">
+
+                    <div class="blog-card">
+
+                        <div class="blog-image">
+
+                            <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=900"
+                                alt="New Zealand Queenstown">
+
+                            <span class="blog-category">Travel</span>
+
+                        </div>
+
+                        <div class="blog-content">
+
+                            <div class="blog-meta">
+                                <span>
+                                    <i class="bi bi-calendar"></i>
+                                    05 November 2026
+                                </span>
+
+                                <span>
+                                    <i class="bi bi-person"></i>
+                                    Admin
+                                </span>
+                            </div>
+
+                            <h4>Discover The Beauty Of Queenstown</h4>
 
                             <p>
-                                Copyright © 2026, Waterloo Auto Wreckers. All rights reserved.
+                                Explore beautiful lakes, mountains
+                                and amazing tourist destinations
+                                in Queenstown.
                             </p>
 
+                            <button class="read-more" data-title="Discover The Beauty Of Queenstown"
+                                data-image="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=1200"
+                                data-description="Queenstown is one of New Zealand's most beautiful travel destinations. Discover stunning mountain scenery, Lake Wakatipu, outdoor activities and memorable experiences for travellers.">
 
-                            <div class="social-icons">
+                                Read More
+                                <i class="bi bi-arrow-right"></i>
 
-                                <a href="#">
-                                    <i class="fa-brands fa-facebook-f"></i>
-                                </a>
+                            </button>
 
-                                <a href="#">
-                                    <i class="fa-brands fa-linkedin-in"></i>
-                                </a>
-                                
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- BLOG 2 -->
+
+                <div class="col-lg-4 col-md-6 blog-item" data-category="nature">
+
+                    <div class="blog-card">
+
+                        <div class="blog-image">
+
+                            <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=900"
+                                alt="New Zealand Mountains">
+
+                            <span class="blog-category">Nature</span>
+
+                        </div>
+
+                        <div class="blog-content">
+
+                            <div class="blog-meta">
+                                <span>
+                                    <i class="bi bi-calendar"></i>
+                                    04 November 2026
+                                </span>
+
+                                <span>
+                                    <i class="bi bi-person"></i>
+                                    Admin
+                                </span>
+                            </div>
+
+                            <h4>Explore The Beautiful Mountains</h4>
+
+                            <p>
+                                Discover breathtaking mountain
+                                landscapes and the natural beauty
+                                of New Zealand.
+                            </p>
+
+                            <button class="read-more" data-title="Explore The Beautiful Mountains"
+                                data-image="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1200"
+                                data-description="New Zealand is famous for its spectacular mountain scenery. Explore the Southern Alps, scenic hiking routes, alpine landscapes and beautiful natural surroundings.">
+
+                                Read More
+                                <i class="bi bi-arrow-right"></i>
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- BLOG 3 -->
+
+                <div class="col-lg-4 col-md-6 blog-item" data-category="food">
+
+                    <div class="blog-card">
+
+                        <div class="blog-image">
+
+                            <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=900" alt="Food">
+
+                            <span class="blog-category">Food</span>
+
+                        </div>
+
+                        <div class="blog-content">
+
+                            <div class="blog-meta">
+                                <span>
+                                    <i class="bi bi-calendar"></i>
+                                    03 November 2026
+                                </span>
+
+                                <span>
+                                    <i class="bi bi-person"></i>
+                                    Admin
+                                </span>
+                            </div>
+
+                            <h4>Delicious New Zealand Food Culture</h4>
+
+                            <p>
+                                Explore traditional dishes,
+                                fresh seafood and amazing
+                                local food experiences.
+                            </p>
+
+                            <button class="read-more" data-title="Delicious New Zealand Food Culture"
+                                data-image="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=1200"
+                                data-description="Discover the food culture of New Zealand, from Māori Hāngī and green-lipped mussels to fresh seafood, meat pies and delicious pavlova desserts.">
+
+                                Read More
+                                <i class="bi bi-arrow-right"></i>
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- BLOG 4 -->
+
+                <div class="col-lg-4 col-md-6 blog-item" data-category="adventure">
+
+                    <div class="blog-card">
+
+                        <div class="blog-image">
+
+                            <img src="https://images.unsplash.com/photo-1551632811-561732d1e306?w=900"
+                                alt="Hiking Adventure">
+
+                            <span class="blog-category">Adventure</span>
+
+                        </div>
+
+                        <div class="blog-content">
+
+                            <div class="blog-meta">
+                                <span>
+                                    <i class="bi bi-calendar"></i>
+                                    02 November 2026
+                                </span>
+
+                                <span>
+                                    <i class="bi bi-person"></i>
+                                    Admin
+                                </span>
+                            </div>
+
+                            <h4>Adventure And Hiking In New Zealand</h4>
+
+                            <p>
+                                Experience exciting outdoor
+                                adventures and amazing
+                                hiking destinations.
+                            </p>
+
+                            <button class="read-more" data-title="Adventure And Hiking In New Zealand"
+                                data-image="https://images.unsplash.com/photo-1551632811-561732d1e306?w=1200"
+                                data-description="From mountain hiking and scenic walks to outdoor adventures, New Zealand offers many exciting ways to explore its natural landscapes.">
+
+                                Read More
+                                <i class="bi bi-arrow-right"></i>
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- BLOG 5 -->
+
+                <div class="col-lg-4 col-md-6 blog-item" data-category="travel">
+
+                    <div class="blog-card">
+
+                        <div class="blog-image">
+
+                            <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=900"
+                                alt="New Zealand Lake">
+
+                            <span class="blog-category">Travel</span>
+
+                        </div>
+
+                        <div class="blog-content">
+
+                            <div class="blog-meta">
+                                <span>
+                                    <i class="bi bi-calendar"></i>
+                                    01 November 2026
+                                </span>
+
+                                <span>
+                                    <i class="bi bi-person"></i>
+                                    Admin
+                                </span>
+                            </div>
+
+                            <h4>Beautiful Lakes Of New Zealand</h4>
+
+                            <p>
+                                Visit stunning lakes, enjoy
+                                peaceful scenery and discover
+                                beautiful places.
+                            </p>
+
+                            <button class="read-more" data-title="Beautiful Lakes Of New Zealand"
+                                data-image="https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=1200"
+                                data-description="New Zealand has many remarkable lakes. Discover the turquoise waters of Lake Tekapo, Lake Pukaki and the beautiful scenery around Lake Wakatipu.">
+
+                                Read More
+                                <i class="bi bi-arrow-right"></i>
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- BLOG 6 -->
+
+                <div class="col-lg-4 col-md-6 blog-item" data-category="nature">
+
+                    <div class="blog-card">
+
+                        <div class="blog-image">
+
+                            <img src="https://images.unsplash.com/photo-1448375240586-882707db888b?w=900"
+                                alt="New Zealand Forest">
+
+                            <span class="blog-category">Nature</span>
+
+                        </div>
+
+                        <div class="blog-content">
+
+                            <div class="blog-meta">
+                                <span>
+                                    <i class="bi bi-calendar"></i>
+                                    31 October 2026
+                                </span>
+
+                                <span>
+                                    <i class="bi bi-person"></i>
+                                    Admin
+                                </span>
+                            </div>
+
+                            <h4>Discover New Zealand Green Forests</h4>
+
+                            <p>
+                                Explore peaceful forests,
+                                beautiful trees and
+                                wonderful nature trails.
+                            </p>
+
+                            <button class="read-more" data-title="Discover New Zealand Green Forests"
+                                data-image="https://images.unsplash.com/photo-1448375240586-882707db888b?w=1200"
+                                data-description="Discover New Zealand's lush forests, native plants, beautiful walking tracks and unique natural environments.">
+
+                                Read More
+                                <i class="bi bi-arrow-right"></i>
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <p id="noResults" class="text-center mt-4" hidden>
+                No blogs found. Please try another search.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- =============== READ MORE MODAL =============== -->
+
+    <div class="modal fade" id="blogModal" tabindex="-1">
+
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <h5 class="modal-title" id="modalTitle">
+                        Blog Details
+                    </h5>
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal">
+                    </button>
+
+                </div>
+
+                <div class="modal-body">
+
+                    <img src="" id="modalImage" class="img-fluid rounded mb-3" alt="Blog Image">
+
+                    <p id="modalDescription"></p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =============== NEWSLETTER =============== -->
+
+    <section class="newsletter">
+
+        <div class="container text-center">
+
+            <p>STAY CONNECTED</p>
+
+            <h2>Subscribe To Our Travel Blog</h2>
+
+            <span>
+                Get travel inspiration, destination stories
+                and food experiences in your inbox.
+            </span>
+
+            <form id="newsletterForm" class="newsletter-form">
+
+                <input type="email" id="emailInput" placeholder="Enter your email address" required>
+
+                <button type="submit">
+                    Subscribe
+                </button>
+
+            </form>
+
+            <p id="newsletterMessage" class="newsletter-message" aria-live="polite"></p>
+
+        </div>
+
+    </section>
+
+    <!--======Contact Seaction==========-->
+    <!-- =============== HERO SECTION =============== -->
+
+    <section class="contact-hero">
+
+        <div class="hero-overlay"></div>
+
+        <div class="container hero-content text-center">
+
+            <p>WE ARE HERE TO HELP YOU</p>
+
+            <h1>CONTACT <span>US</span></h1>
+
+            <h5>
+                Let's Plan Your Next Adventure In Beautiful New Zealand.
+            </h5>
+
+            <a href="contact-form.html" class="btn hero-btn">
+                Get In Touch
+                <i class="bi bi-arrow-right"></i>
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- =============== CONTACT INTRO =============== -->
+
+    <section class="contact-intro">
+
+        <div class="container text-center">
+
+            <p class="small-title">CONTACT OUR TEAM</p>
+
+            <h2>Let's Start A Conversation</h2>
+
+            <p class="intro-text">
+
+                Have questions about travelling to New Zealand?
+                Need help with destinations, food experiences or
+                adventure activities? Send us a message.
+
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- =============== CONTACT INFORMATION =============== -->
+
+    <section class="contact-info">
+
+        <div class="container">
+
+            <div class="row g-4">
+
+                <!-- EMAIL -->
+
+                <div class="col-lg-4 col-md-6">
+
+                    <div class="info-card">
+
+                        <div class="info-icon">
+                            <i class="bi bi-envelope-fill"></i>
+                        </div>
+
+                        <h4>Email Us</h4>
+
+                        <p>Send us your travel questions.</p>
+
+                        <a href="mailto:info@example.com">
+                            info@example.com
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- PHONE -->
+
+                <div class="col-lg-4 col-md-6">
+
+                    <div class="info-card">
+
+                        <div class="info-icon">
+                            <i class="bi bi-telephone-fill"></i>
+                        </div>
+
+                        <h4>Call Us</h4>
+
+                        <p>We are happy to assist you.</p>
+
+                        <a href="tel:+64000000000">
+                            +64 00 000 0000
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- LOCATION -->
+
+                <div class="col-lg-4 col-md-6">
+
+                    <div class="info-card">
+
+                        <div class="info-icon">
+                            <i class="bi bi-geo-alt-fill"></i>
+                        </div>
+
+                        <h4>Our Location</h4>
+
+                        <p>Discover our New Zealand destination.</p>
+
+                        <a href="#map">
+                            Auckland, New Zealand
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =============== CONTACT FORM SECTION =============== -->
+
+    <section class="contact-section" id="contact-form">
+
+        <div class="container">
+
+            <div class="row g-5 align-items-center">
+
+
+                <!-- LEFT SIDE CONTENT -->
+
+                <div class="col-lg-5">
+
+                    <div class="contact-left">
+
+                        <p class="small-title">GET IN TOUCH</p>
+
+                        <h2>We Would Love To Hear From You!</h2>
+
+                        <p>
+                            Planning a trip to New Zealand?
+                            Contact our team and share your travel
+                            requirements. We would love to help you
+                            discover amazing places.
+                        </p>
+
+                        <div class="contact-detail">
+
+                            <i class="bi bi-envelope"></i>
+
+                            <div>
+                                <h6>Email Address</h6>
+                                <span>info@example.com</span>
                             </div>
 
                         </div>
 
+                        <div class="contact-detail">
+
+                            <i class="bi bi-telephone"></i>
+
+                            <div>
+                                <h6>Phone Number</h6>
+                                <span>+64 00 000 0000</span>
+                            </div>
+
+                        </div>
+
+                        <div class="contact-detail">
+
+                            <i class="bi bi-geo-alt"></i>
+
+                            <div>
+                                <h6>Address</h6>
+                                <span>Auckland, New Zealand</span>
+                            </div>
+
+                        </div>
+
+
+                        <div class="contact-social">
+
+                            <h6>Follow Us</h6>
+
+                            <a href="#" aria-label="Facebook">
+                                <i class="bi bi-facebook"></i>
+                            </a>
+
+                            <a href="#" aria-label="Instagram">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+
+                            <a href="#" aria-label="YouTube">
+                                <i class="bi bi-youtube"></i>
+                            </a>
+
+                            <a href="#" aria-label="Twitter">
+                                <i class="bi bi-twitter-x"></i>
+                            </a>
+
+                        </div>
+
                     </div>
 
                 </div>
 
-                <hr>
 
-                <p class="copyright">
-                    © 2026 Kiwi Travels | Designed with ❤️ in New Zealand
-                </p>
+                <!-- RIGHT SIDE FORM -->
 
-            </footer>
-    </header>
+                <div class="col-lg-7">
+
+                    <div class="contact-form-box">
+
+                        <h3>Send Us A Message</h3>
+
+                        <p>Fill out the form below and we will get back to you.</p>
+
+
+                        <form id="contactForm" novalidate>
+
+                            <div class="row g-3">
+
+
+                                <!-- NAME -->
+
+                                <div class="col-md-6">
+
+                                    <label for="fullName">
+                                        Full Name
+                                    </label>
+
+                                    <input type="text" id="fullName" class="form-control" placeholder="Enter your name"
+                                        required>
+
+                                    <div class="error-message" id="nameError"></div>
+
+                                </div>
+
+
+                                <!-- EMAIL -->
+
+                                <div class="col-md-6">
+
+                                    <label for="email">
+                                        Email Address
+                                    </label>
+
+                                    <input type="email" id="email" class="form-control" placeholder="Enter your email"
+                                        required>
+
+                                    <div class="error-message" id="emailError"></div>
+
+                                </div>
+
+
+                                <!-- PHONE -->
+
+                                <div class="col-md-6">
+
+                                    <label for="phone">
+                                        Phone Number
+                                    </label>
+
+                                    <input type="tel" id="phone" class="form-control"
+                                        placeholder="Enter your phone number">
+
+                                </div>
+
+
+                                <!-- SUBJECT -->
+
+                                <div class="col-md-6">
+
+                                    <label for="subject">
+                                        Subject
+                                    </label>
+
+                                    <select id="subject" class="form-select" required>
+
+                                        <option value="">Choose Subject</option>
+
+                                        <option value="Travel Enquiry">
+                                            Travel Enquiry
+                                        </option>
+
+                                        <option value="Destination Information">
+                                            Destination Information
+                                        </option>
+
+                                        <option value="Food and Culture">
+                                            Food and Culture
+                                        </option>
+
+                                        <option value="Adventure Activities">
+                                            Adventure Activities
+                                        </option>
+
+                                        <option value="Other">
+                                            Other
+                                        </option>
+
+                                    </select>
+
+                                    <div class="error-message" id="subjectError"></div>
+
+                                </div>
+
+
+                                <!-- MESSAGE -->
+
+                                <div class="col-12">
+
+                                    <label for="message">
+                                        Your Message
+                                    </label>
+
+                                    <textarea id="message" class="form-control" rows="5"
+                                        placeholder="Write your message here..." required></textarea>
+
+                                    <div class="error-message" id="messageError"></div>
+
+                                </div>
+                                <!-- BUTTON -->
+
+                                <div class="col-12">
+
+                                    <button type="submit" class="submit-btn">
+
+                                        Send Message
+                                        <i class="bi bi-send-fill"></i>
+
+                                    </button>
+
+                                </div>
+
+                            </div>
+
+                            <div id="formMessage" class="form-message" aria-live="polite"></div>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =============== MAP SECTION =============== -->
+
+    <section class="map-section" id="map">
+
+        <div class="container">
+
+            <div class="text-center map-heading">
+
+                <p class="small-title">FIND OUR DESTINATION</p>
+
+                <h2>Explore New Zealand</h2>
+
+            </div>
+
+            <div class="map-box">
+
+                <iframe src="https://www.google.com/maps?q=Auckland,New%20Zealand&output=embed" width="100%"
+                    height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade" title="Map of Auckland, New Zealand">
+                </iframe>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!--======Registration Seaction==========-->
+    <!-- =============== HERO SECTION =============== -->
+
+    <section class="registration-hero">
+
+        <div class="hero-overlay"></div>
+
+        <div class="container hero-content text-center">
+
+            <p>START YOUR JOURNEY WITH US</p>
+
+            <h1>TRAVEL <span>REGISTRATION</span></h1>
+
+            <h5>
+                Register Today And Explore Beautiful New Zealand.
+            </h5>
+
+            <a href="#registration" class="btn hero-btn">
+                Register Now
+                <i class="bi bi-arrow-down"></i>
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- =============== INTRO SECTION =============== -->
+
+    <section class="registration-intro">
+
+        <div class="container text-center">
+
+            <p class="small-title">NEW ZEALAND TOURISM</p>
+
+            <h2>Register For Your Dream Journey</h2>
+
+            <p>
+                Complete the registration form below to plan your
+                New Zealand holiday. Enter your details, select
+                your travel package and choose a payment method.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- =============== REGISTRATION SECTION =============== -->
+
+    <section class="registration-section" id="registration">
+
+        <div class="container">
+
+            <div class="row justify-content-center">
+
+                <div class="col-lg-9">
+
+                    <div class="registration-box">
+
+                        <div class="form-heading text-center">
+
+                            <div class="form-icon">
+                                <i class="bi bi-person-plus-fill"></i>
+                            </div>
+
+                            <h2>Visitor Registration Form</h2>
+
+                            <p>Please fill in your personal details.</p>
+
+                        </div>
+
+
+                        <form id="registrationForm" novalidate>
+
+                            <h5 class="form-section-title">
+                                <i class="bi bi-person"></i>
+                                Personal Information
+                            </h5>
+
+                            <div class="row g-3">
+
+
+                                <!-- FULL NAME -->
+
+                                <div class="col-md-6">
+
+                                    <label for="fullName">
+                                        Full Name *
+                                    </label>
+
+                                    <input type="text" class="form-control" id="fullName"
+                                        placeholder="Enter your full name" required>
+
+                                    <div class="error-message" id="nameError"></div>
+
+                                </div>
+
+
+                                <!-- EMAIL -->
+
+                                <div class="col-md-6">
+
+                                    <label for="email">
+                                        Email Address *
+                                    </label>
+
+                                    <input type="email" class="form-control" id="email" placeholder="Enter your email"
+                                        required>
+
+                                    <div class="error-message" id="emailError"></div>
+
+                                </div>
+
+
+                                <!-- CONTACT NUMBER -->
+
+                                <div class="col-md-6">
+
+                                    <label for="phone">
+                                        Contact Number *
+                                    </label>
+
+                                    <input type="tel" class="form-control" id="phone" placeholder="Enter contact number"
+                                        required>
+
+                                    <div class="error-message" id="phoneError"></div>
+
+                                </div>
+
+
+                                <!-- LOCATION -->
+
+                                <div class="col-md-6">
+
+                                    <label for="location">
+                                        Your Location *
+                                    </label>
+
+                                    <input type="text" class="form-control" id="location"
+                                        placeholder="City, State, Country" required>
+
+                                    <div class="error-message" id="locationError"></div>
+
+                                </div>
+
+
+                                <!-- DATE OF BIRTH -->
+
+                                <div class="col-md-6">
+
+                                    <label for="dob">
+                                        Date Of Birth
+                                    </label>
+
+                                    <input type="date" class="form-control" id="dob">
+
+                                </div>
+
+
+                                <!-- GENDER -->
+
+                                <div class="col-md-6">
+
+                                    <label for="gender">
+                                        Gender
+                                    </label>
+
+                                    <select class="form-select" id="gender">
+
+                                        <option value="">Select Gender</option>
+                                        <option value="Male">Male</option>
+                                        <option value="Female">Female</option>
+                                        <option value="Other">Other</option>
+                                        <option value="Prefer not to say">
+                                            Prefer not to say
+                                        </option>
+
+                                    </select>
+
+                                </div>
+
+                            </div>
+
+                            <!-- TRAVEL INFORMATION -->
+
+                            <h5 class="form-section-title mt-5">
+
+                                <i class="bi bi-airplane"></i>
+                                Travel Information
+
+                            </h5>
+
+
+                            <div class="row g-3">
+
+
+                                <!-- DESTINATION -->
+
+                                <div class="col-md-6">
+
+                                    <label for="destination">
+                                        Destination *
+                                    </label>
+
+                                    <select class="form-select" id="destination" required>
+
+                                        <option value="">Choose Destination</option>
+                                        <option value="Auckland">Auckland</option>
+                                        <option value="Queenstown">Queenstown</option>
+                                        <option value="Rotorua">Rotorua</option>
+                                        <option value="Milford Sound">Milford Sound</option>
+                                        <option value="Christchurch">Christchurch</option>
+
+                                    </select>
+
+                                    <div class="error-message" id="destinationError"></div>
+
+                                </div>
+
+
+                                <!-- PACKAGE -->
+
+                                <div class="col-md-6">
+
+                                    <label for="package">
+                                        Travel Package *
+                                    </label>
+
+                                    <select class="form-select" id="package" required>
+
+                                        <option value="">Choose Package</option>
+                                        <option value="Basic Package" data-price="500">
+                                            Basic Package - NZD 500
+                                        </option>
+
+                                        <option value="Standard Package" data-price="1000">
+                                            Standard Package - NZD 1000
+                                        </option>
+
+                                        <option value="Premium Package" data-price="1500">
+                                            Premium Package - NZD 1500
+                                        </option>
+
+                                        <option value="Luxury Package" data-price="2500">
+                                            Luxury Package - NZD 2500
+                                        </option>
+
+                                    </select>
+
+                                    <div class="error-message" id="packageError"></div>
+
+                                </div>
+
+
+                                <!-- TRAVEL DATE -->
+
+                                <div class="col-md-6">
+
+                                    <label for="travelDate">
+                                        Travel Date *
+                                    </label>
+
+                                    <input type="date" class="form-control" id="travelDate" required>
+
+                                    <div class="error-message" id="dateError"></div>
+
+                                </div>
+
+
+                                <!-- VISITORS -->
+
+                                <div class="col-md-6">
+
+                                    <label for="visitors">
+                                        Number Of Visitors *
+                                    </label>
+
+                                    <input type="number" class="form-control" id="visitors" min="1" max="20" value="1"
+                                        required>
+
+                                    <div class="error-message" id="visitorsError"></div>
+
+                                </div>
+
+
+                            </div>
+
+
+                            <!-- PAYMENT INFORMATION -->
+
+                            <h5 class="form-section-title mt-5">
+
+                                <i class="bi bi-credit-card"></i>
+                                Payment Information
+
+                            </h5>
+
+
+                            <div class="row g-3">
+
+
+                                <!-- TOTAL PRICE -->
+
+                                <div class="col-md-6">
+
+                                    <label for="totalPrice">
+                                        Total Amount
+                                    </label>
+
+                                    <input type="text" class="form-control" id="totalPrice" value="NZD 0" readonly>
+
+                                </div>
+
+
+                                <!-- PAYMENT METHOD -->
+
+                                <div class="col-md-6">
+
+                                    <label for="paymentMethod">
+                                        Payment Method *
+                                    </label>
+
+                                    <select class="form-select" id="paymentMethod" required>
+
+                                        <option value="">Choose Payment Method</option>
+                                        <option value="Cash">Cash</option>
+                                        <option value="Bank Transfer">Bank Transfer</option>
+                                        <option value="Credit/Debit Card">
+                                            Credit/Debit Card
+                                        </option>
+                                        <option value="Online Payment">
+                                            Online Payment
+                                        </option>
+
+                                    </select>
+
+                                    <div class="error-message" id="paymentError"></div>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="payment-note">
+
+                                <i class="bi bi-shield-lock-fill"></i>
+
+                                This is a demonstration registration form.
+                                No real payment will be collected.
+
+                            </div>
+
+
+                            <!-- TERMS -->
+
+                            <div class="form-check terms-check mt-4">
+
+                                <input class="form-check-input" type="checkbox" id="terms">
+
+                                <label class="form-check-label" for="terms">
+
+                                    I confirm that the information provided
+                                    above is correct.
+
+                                </label>
+
+                            </div>
+
+                            <div class="error-message" id="termsError"></div>
+
+
+                            <!-- SUBMIT BUTTON -->
+
+                            <div class="text-center mt-4">
+
+                                <button type="submit" class="register-btn">
+
+                                    Submit Registration
+                                    <i class="bi bi-arrow-right-circle"></i>
+
+                                </button>
+
+                            </div>
+
+                            <div id="formMessage" class="form-message" aria-live="polite"></div>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =============== REGISTRATION RESULT =============== -->
+
+    <section class="result-section" id="resultSection" hidden>
+
+        <div class="container">
+
+            <div class="result-box">
+
+                <div class="text-center">
+
+                    <div class="success-icon">
+                        <i class="bi bi-check-circle-fill"></i>
+                    </div>
+
+                    <h2>Registration Successful!</h2>
+
+                    <p>Your registration details are shown below.</p>
+
+                </div>
+
+
+                <div id="printArea">
+
+                    <div class="print-heading">
+
+                        <h2>NEW ZEALAND TOURISM</h2>
+
+                        <p>Visitor Registration Receipt</p>
+
+                        <hr>
+
+                    </div>
+
+                    <h5>Personal Information</h5>
+
+                    <table class="table table-bordered">
+
+                        <tbody>
+
+                            <tr>
+                                <th>Registration ID</th>
+                                <td id="outId"></td>
+                            </tr>
+
+                            <tr>
+                                <th>Full Name</th>
+                                <td id="outName"></td>
+                            </tr>
+
+                            <tr>
+                                <th>Email Address</th>
+                                <td id="outEmail"></td>
+                            </tr>
+
+                            <tr>
+                                <th>Contact Number</th>
+                                <td id="outPhone"></td>
+                            </tr>
+
+                            <tr>
+                                <th>Location</th>
+                                <td id="outLocation"></td>
+                            </tr>
+
+                            <tr>
+                                <th>Date Of Birth</th>
+                                <td id="outDob"></td>
+                            </tr>
+
+                            <tr>
+                                <th>Gender</th>
+                                <td id="outGender"></td>
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+
+                    <h5 class="mt-4">Travel Information</h5>
+
+                    <table class="table table-bordered">
+
+                        <tbody>
+
+                            <tr>
+                                <th>Destination</th>
+                                <td id="outDestination"></td>
+                            </tr>
+
+                            <tr>
+                                <th>Travel Package</th>
+                                <td id="outPackage"></td>
+                            </tr>
+
+                            <tr>
+                                <th>Travel Date</th>
+                                <td id="outTravelDate"></td>
+                            </tr>
+
+                            <tr>
+                                <th>Visitors</th>
+                                <td id="outVisitors"></td>
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+
+                    <h5 class="mt-4">Payment Information</h5>
+
+                    <table class="table table-bordered">
+
+                        <tbody>
+
+                            <tr>
+                                <th>Total Amount</th>
+                                <td id="outAmount"></td>
+                            </tr>
+
+                            <tr>
+                                <th>Payment Method</th>
+                                <td id="outPayment"></td>
+                            </tr>
+
+                            <tr>
+                                <th>Payment Status</th>
+                                <td id="outStatus"></td>
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                    <p class="receipt-footer">
+                        Thank you for choosing New Zealand Tourism!
+                    </p>
+
+                </div>
+
+
+                <div class="result-buttons text-center">
+
+                    <button class="print-btn" id="printButton">
+
+                        <i class="bi bi-printer-fill"></i>
+                        Print Registration
+
+                    </button>
+
+                    <button class="new-btn" id="newButton">
+
+                        <i class="bi bi-plus-circle"></i>
+                        New Registration
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!--======Footer Tag ==========-->
+    <!-- Demo content -->
+    <section class="demo-section">
+        <div>
+            <span>EXPLORE AOTEAROA</span>
+            <h1>Discover New Zealand</h1>
+            <p>Nature, adventure and unforgettable journeys.</p>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="nz-footer">
+
+        <div class="footer-top">
+            <div class="container">
+
+                <!-- Newsletter -->
+                <div class="newsletter-box">
+                    <div>
+                        <span class="small-title">STAY CONNECTED</span>
+                        <h2>Get inspired for your next journey.</h2>
+                        <p>Subscribe for travel ideas, destination guides and special updates.</p>
+                    </div>
+
+                    <form id="newsletterForm" class="newsletter-form">
+                        <input type="email" id="newsletterEmail" placeholder="Enter your email address" required>
+                        <button type="submit">
+                            Subscribe <i class="bi bi-arrow-right"></i>
+                        </button>
+                    </form>
+                </div>
+
+                <div id="newsletterMessage" class="newsletter-message"></div>
+
+                <div class="row gy-5 footer-content">
+
+                    <!-- Brand -->
+                    <div class="col-lg-4 col-md-6">
+                        <a href="#" class="footer-logo">
+                            <span class="logo-icon"><i class="bi bi-compass-fill"></i></span>
+                            <span>NEW ZEALAND<small>EXPLORE MORE</small></span>
+                        </a>
+
+                        <p class="brand-description">
+                            From breathtaking mountains to peaceful beaches,
+                            discover the beauty and magic of Aotearoa New Zealand.
+                        </p>
+
+                        <div class="social-links">
+                            <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                            <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                            <a href="#" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+                            <a href="#" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Quick Links -->
+                    <div class="col-lg-2 col-md-6">
+                        <h5 class="footer-heading">Quick Links</h5>
+                        <ul class="footer-links">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="services.html">Our Services</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="blog.html">Travel Blog</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <!-- Destinations -->
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="footer-heading">Top Destinations</h5>
+                        <ul class="footer-links">
+                            <li><a href="#">Auckland</a></li>
+                            <li><a href="#">Queenstown</a></li>
+                            <li><a href="#">Rotorua</a></li>
+                            <li><a href="#">Milford Sound</a></li>
+                            <li><a href="#">Christchurch</a></li>
+                            <li><a href="#">Wellington</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Contact -->
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="footer-heading">Contact Us</h5>
+
+                        <div class="contact-item">
+                            <i class="bi bi-geo-alt-fill"></i>
+                            <p>New Zealand, Aotearoa</p>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="bi bi-envelope-fill"></i>
+                            <p>info@newzealand.com</p>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="bi bi-telephone-fill"></i>
+                            <p>+64 123 456 789</p>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="bi bi-clock-fill"></i>
+                            <p>Mon - Fri: 9:00 AM - 5:00 PM</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Footer Bottom -->
+                <div class="footer-bottom">
+                    <p>
+                        &copy; <span id="currentYear"></span>
+                        New Zealand Tourism. All Rights Reserved.
+                    </p>
+
+                    <div class="bottom-links">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms & Conditions</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Back to Top -->
+        <button id="backToTop" class="back-to-top" aria-label="Back to top">
+            <i class="bi bi-arrow-up"></i>
+        </button>
+
+    </footer>
+
+
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+
 </body>
 
 </html>

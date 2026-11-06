@@ -1,0 +1,1094 @@
+<!DOCTYPE html>
+
+<head>
+    <metacharset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Nz Website</title>
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Bootstrap Icons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+            rel="stylesheet">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="nzweb.css">
+</head>
+
+<body>
+    <!--====== Top Contact Bar ==========-->
+    <div class="top-bar">
+        <div class="container d-flex justify-content-between flex-wrap">
+            <div>
+                <span>📍 Queenstown, Otago, New Zealand</span>
+            </div>
+
+            <div class="contact-info">
+                <span>+64 3 442 0000</span>
+                <span>mark27@gmail.com</span>
+            </div>
+        </div>
+    </div>
+
+    <!--================== Navigation Bar ======================-->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+
+            <!-- Logo -->
+            <a class="navbar-brand" href="Solutions@Markup.html">
+                Solution<span>@</span>Markup
+            </a>
+
+            <!-- Mobile Toggle -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+                aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar Links -->
+            <div class="collapse navbar-collapse" id="mainNavbar">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="Home.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="About.html">About</a>
+                    </li>
+
+                    <!-- Services Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+
+                            Services
+                        </a>
+
+                        <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+
+                            <li>
+                                <a class="dropdown-item" href="Web-Development.html">
+                                    Web Development
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="Web-Design.html">
+                                    Web Design
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="Digital-Marketing.html">
+                                    Digital Marketing
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="SEO-Services.html">
+                                    SEO Services
+                                </a>
+                            </li>
+
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="All-Services.html">
+                                    All Services
+                                </a>
+                            </li>
+
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="Gallery.html">Gallery</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="Food-Videos.html">Food Videos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="Blog.html">Blog</a>
+                    </li>
+
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contact.html">Contact</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link registration" href="Registration.html">
+                            Registration
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--================== Hero Seaction======================-->
+    <section class="hero-section" id="home">
+
+        <video autoplay muted loop playsinline poster="./Assests/Home img_flg.avif" alt="New Zealand Video"
+            class="hero-video">
+
+            <source src="./Video Assets/14084541_2160_3840_60fps.mp4" type="video/mp4">
+
+        </video>
+
+        <div class="hero-overlay"></div>
+
+        <div class="container hero-content">
+
+            <p class="hero-subtitle">
+                DISCOVER THE BEAUTY OF AOTEAROA
+            </p>
+
+            <h1>
+                EXPLORE THE<br>
+                BEAUTY OF <span>NEW ZEALAND</span>
+            </h1>
+
+            <p class="hero-description">
+                Discover breathtaking mountains, beautiful lakes,
+                amazing landscapes and unforgettable adventures.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="destinations.html" class="btn explore-btn">
+                    Explore Now
+                </a>
+
+                <a href="slider.html" class="btn video-btn">
+                    <i class="bi bi-images"></i>
+                    View Gallery
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="scroll-down">
+            <i class="bi bi-chevron-double-down"></i>
+            <p>SCROLL DOWN</p>
+        </div>
+
+    </section>
+
+
+    <!-- ================= DESTINATION SLIDER ================= -->
+
+    <section class="slider-section" id="slider">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <p>EXPLORE NEW ZEALAND</p>
+
+                <h2>Beautiful Places To Visit</h2>
+
+                <span>
+                    Discover some of the most beautiful places in the world.
+                </span>
+
+            </div>
+
+
+            <div id="destinationCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+
+                <!-- Slider Images -->
+
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+
+                        <img src="./Assests/New Zealand Lake_flg.jpg" class="d-block w-100" alt="New Zealand Lake">
+
+
+                        <div class="carousel-caption">
+                            <h3>Lake Tekapo</h3>
+                            <p>Experience the beauty of crystal-clear lakes.</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="carousel-item">
+
+                        <img src="./Assests/Beautiful mountain lake_flg.jpg" class="d-block w-100"
+                            alt="Beautiful mountain lake">
+
+                          <div class="carousel-caption">
+                            <h3>Queenstown</h3>
+                            <p>Discover mountains and adventure.</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="carousel-item">
+
+                        <img src="./Assests/Mount Cook_flg.jpg" class="d-block w-100" alt="Snowy mountains">
+
+
+                        <div class="carousel-caption">
+                            <h3>Mount Cook</h3>
+                            <p>Enjoy the amazing mountain scenery.</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Previous Button -->
+
+                <button class="carousel-control-prev" type="button" data-bs-target="destinationCarousel.html"
+                    data-bs-slide="prev">
+
+                    <span class="carousel-control-prev-icon"></span>
+
+                </button>
+
+
+                <!-- Next Button -->
+
+                <button class="carousel-control-next" type="button" data-bs-target="destinationCarousel.html"
+                    data-bs-slide="next">
+
+                    <span class="carousel-control-next-icon"></span>
+
+                </button>
+
+
+                <!-- Slider Indicators -->
+
+                <div class="carousel-indicators">
+
+                    <button type="button" data-bs-target="destinationCarousel.html" data-bs-slide-to="0"
+                        class="active"></button>
+
+                    <button type="button" data-bs-target="destinationCarousel.html" data-bs-slide-to="1"></button>
+
+                    <button type="button" data-bs-target="destinationCarousel.html" data-bs-slide-to="2"></button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= DESTINATIONS ================= -->
+
+    <section class="destination-section" id="destinations">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <p>TRAVEL AND EXPLORE</p>
+
+                <h2>Top Destinations</h2>
+
+            </div>
+
+
+            <div class="row g-4">
+
+                <div class="col-lg-4 col-md-6">
+
+                    <div class="destination-card">
+
+                        <img src="./Assests/queenstown _flg.jpg" alt="Queenstown">
+
+                        <div class="destination-info">
+                            <h3>Queenstown</h3>
+                            <p>Adventure and beautiful landscapes.</p>
+                            <a href="contact.html">Explore More →</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-4 col-md-6">
+
+                    <div class="destination-card">
+
+                        <img src="./Assests/Lake destination_flg.jpg"
+                            alt="Lake destination">
+
+                        <div class="destination-info">
+                            <h3>Lake Tekapo</h3>
+                            <p>Peaceful lakes and amazing views.</p>
+                            <a href="contact.html">Explore More →</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-4 col-md-6">
+
+                    <div class="destination-card">
+
+                        <img src="./Assests/Mountain destination_flg.jpg"
+                            alt="Mountain destination">
+
+                        <div class="destination-info">
+                            <h3>Mount Cook</h3>
+                            <p>Discover the beauty of the mountains.</p>
+                            <a href="contact.html">Explore More →</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= Home ABOUT ================= -->
+    <section class="about-section" id="about">
+
+        <div class="container text-center">
+
+            <h2>Welcome To New Zealand</h2>
+
+            <p>
+                New Zealand is a beautiful country famous for its
+                natural landscapes, mountains, lakes, beaches and
+                exciting travel experiences.
+            </p>
+
+        </div>
+
+    </section>
+
+     <!--======Registration Seaction==========-->
+    <!-- =============== HERO SECTION =============== -->
+
+    <section class="registration-hero">
+
+        <div class="hero-overlay"></div>
+
+        <div class="container hero-content text-center">
+
+            <p>START YOUR JOURNEY WITH US</p>
+
+            <h1>TRAVEL <span>REGISTRATION</span></h1>
+
+            <h5>
+                Register Today And Explore Beautiful New Zealand.
+            </h5>
+
+            <a href="#registration" class="btn hero-btn">
+                Register Now
+                <i class="bi bi-arrow-down"></i>
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- =============== INTRO SECTION =============== -->
+
+    <section class="registration-intro">
+
+        <div class="container text-center">
+
+            <p class="small-title">NEW ZEALAND TOURISM</p>
+
+            <h2>Register For Your Dream Journey</h2>
+
+            <p>
+                Complete the registration form below to plan your
+                New Zealand holiday. Enter your details, select
+                your travel package and choose a payment method.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- =============== REGISTRATION SECTION =============== -->
+
+    <section class="registration-section" id="registration">
+
+        <div class="container">
+
+            <div class="row justify-content-center">
+
+                <div class="col-lg-9">
+
+                    <div class="registration-box">
+
+                        <div class="form-heading text-center">
+
+                            <div class="form-icon">
+                                <i class="bi bi-person-plus-fill"></i>
+                            </div>
+
+                            <h2>Visitor Registration Form</h2>
+
+                            <p>Please fill in your personal details.</p>
+
+                        </div>
+
+
+                        <form id="registrationForm" novalidate>
+
+                            <h5 class="form-section-title">
+                                <i class="bi bi-person"></i>
+                                Personal Information
+                            </h5>
+
+                            <div class="row g-3">
+
+
+                                <!-- FULL NAME -->
+
+                                <div class="col-md-6">
+
+                                    <label for="fullName">
+                                        Full Name *
+                                    </label>
+
+                                    <input type="text" class="form-control" id="fullName"
+                                        placeholder="Enter your full name" required>
+
+                                    <div class="error-message" id="nameError"></div>
+
+                                </div>
+
+
+                                <!-- EMAIL -->
+
+                                <div class="col-md-6">
+
+                                    <label for="email">
+                                        Email Address *
+                                    </label>
+
+                                    <input type="email" class="form-control" id="email" placeholder="Enter your email"
+                                        required>
+
+                                    <div class="error-message" id="emailError"></div>
+
+                                </div>
+
+
+                                <!-- CONTACT NUMBER -->
+
+                                <div class="col-md-6">
+
+                                    <label for="phone">
+                                        Contact Number *
+                                    </label>
+
+                                    <input type="tel" class="form-control" id="phone" placeholder="Enter contact number"
+                                        required>
+
+                                    <div class="error-message" id="phoneError"></div>
+
+                                </div>
+
+
+                                <!-- LOCATION -->
+
+                                <div class="col-md-6">
+
+                                    <label for="location">
+                                        Your Location *
+                                    </label>
+
+                                    <input type="text" class="form-control" id="location"
+                                        placeholder="City, State, Country" required>
+
+                                    <div class="error-message" id="locationError"></div>
+
+                                </div>
+
+
+                                <!-- DATE OF BIRTH -->
+
+                                <div class="col-md-6">
+
+                                    <label for="dob">
+                                        Date Of Birth
+                                    </label>
+
+                                    <input type="date" class="form-control" id="dob">
+
+                                </div>
+
+
+                                <!-- GENDER -->
+
+                                <div class="col-md-6">
+
+                                    <label for="gender">
+                                        Gender
+                                    </label>
+
+                                    <select class="form-select" id="gender">
+
+                                        <option value="">Select Gender</option>
+                                        <option value="Male">Male</option>
+                                        <option value="Female">Female</option>
+                                        <option value="Other">Other</option>
+                                        <option value="Prefer not to say">
+                                            Prefer not to say
+                                        </option>
+
+                                    </select>
+
+                                </div>
+
+                            </div>
+
+                            <!-- TRAVEL INFORMATION -->
+
+                            <h5 class="form-section-title mt-5">
+
+                                <i class="bi bi-airplane"></i>
+                                Travel Information
+
+                            </h5>
+
+
+                            <div class="row g-3">
+
+
+                                <!-- DESTINATION -->
+
+                                <div class="col-md-6">
+
+                                    <label for="destination">
+                                        Destination *
+                                    </label>
+
+                                    <select class="form-select" id="destination" required>
+
+                                        <option value="">Choose Destination</option>
+                                        <option value="Auckland">Auckland</option>
+                                        <option value="Queenstown">Queenstown</option>
+                                        <option value="Rotorua">Rotorua</option>
+                                        <option value="Milford Sound">Milford Sound</option>
+                                        <option value="Christchurch">Christchurch</option>
+
+                                    </select>
+
+                                    <div class="error-message" id="destinationError"></div>
+
+                                </div>
+
+
+                                <!-- PACKAGE -->
+
+                                <div class="col-md-6">
+
+                                    <label for="package">
+                                        Travel Package *
+                                    </label>
+
+                                    <select class="form-select" id="package" required>
+
+                                        <option value="">Choose Package</option>
+                                        <option value="Basic Package" data-price="500">
+                                            Basic Package - NZD 500
+                                        </option>
+
+                                        <option value="Standard Package" data-price="1000">
+                                            Standard Package - NZD 1000
+                                        </option>
+
+                                        <option value="Premium Package" data-price="1500">
+                                            Premium Package - NZD 1500
+                                        </option>
+
+                                        <option value="Luxury Package" data-price="2500">
+                                            Luxury Package - NZD 2500
+                                        </option>
+
+                                    </select>
+
+                                    <div class="error-message" id="packageError"></div>
+
+                                </div>
+
+
+                                <!-- TRAVEL DATE -->
+
+                                <div class="col-md-6">
+
+                                    <label for="travelDate">
+                                        Travel Date *
+                                    </label>
+
+                                    <input type="date" class="form-control" id="travelDate" required>
+
+                                    <div class="error-message" id="dateError"></div>
+
+                                </div>
+
+
+                                <!-- VISITORS -->
+
+                                <div class="col-md-6">
+
+                                    <label for="visitors">
+                                        Number Of Visitors *
+                                    </label>
+
+                                    <input type="number" class="form-control" id="visitors" min="1" max="20" value="1"
+                                        required>
+
+                                    <div class="error-message" id="visitorsError"></div>
+
+                                </div>
+
+
+                            </div>
+
+
+                            <!-- PAYMENT INFORMATION -->
+
+                            <h5 class="form-section-title mt-5">
+
+                                <i class="bi bi-credit-card"></i>
+                                Payment Information
+
+                            </h5>
+
+
+                            <div class="row g-3">
+
+
+                                <!-- TOTAL PRICE -->
+
+                                <div class="col-md-6">
+
+                                    <label for="totalPrice">
+                                        Total Amount
+                                    </label>
+
+                                    <input type="text" class="form-control" id="totalPrice" value="NZD 0" readonly>
+
+                                </div>
+
+
+                                <!-- PAYMENT METHOD -->
+
+                                <div class="col-md-6">
+
+                                    <label for="paymentMethod">
+                                        Payment Method *
+                                    </label>
+
+                                    <select class="form-select" id="paymentMethod" required>
+
+                                        <option value="">Choose Payment Method</option>
+                                        <option value="Cash">Cash</option>
+                                        <option value="Bank Transfer">Bank Transfer</option>
+                                        <option value="Credit/Debit Card">
+                                            Credit/Debit Card
+                                        </option>
+                                        <option value="Online Payment">
+                                            Online Payment
+                                        </option>
+
+                                    </select>
+
+                                    <div class="error-message" id="paymentError"></div>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="payment-note">
+
+                                <i class="bi bi-shield-lock-fill"></i>
+
+                                This is a demonstration registration form.
+                                No real payment will be collected.
+
+                            </div>
+
+
+                            <!-- TERMS -->
+
+                            <div class="form-check terms-check mt-4">
+
+                                <input class="form-check-input" type="checkbox" id="terms">
+
+                                <label class="form-check-label" for="terms">
+
+                                    I confirm that the information provided
+                                    above is correct.
+
+                                </label>
+
+                            </div>
+
+                            <div class="error-message" id="termsError"></div>
+
+
+                            <!-- SUBMIT BUTTON -->
+
+                            <div class="text-center mt-4">
+
+                                <button type="submit" class="register-btn">
+
+                                    Submit Registration
+                                    <i class="bi bi-arrow-right-circle"></i>
+
+                                </button>
+
+                            </div>
+
+                            <div id="formMessage" class="form-message" aria-live="polite"></div>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =============== REGISTRATION RESULT =============== -->
+
+    <section class="result-section" id="resultSection" hidden>
+
+        <div class="container">
+
+            <div class="result-box">
+
+                <div class="text-center">
+
+                    <div class="success-icon">
+                        <i class="bi bi-check-circle-fill"></i>
+                    </div>
+
+                    <h2>Registration Successful!</h2>
+
+                    <p>Your registration details are shown below.</p>
+
+                </div>
+
+
+                <div id="printArea">
+
+                    <div class="print-heading">
+
+                        <h2>NEW ZEALAND TOURISM</h2>
+
+                        <p>Visitor Registration Receipt</p>
+
+                        <hr>
+
+                    </div>
+
+                    <h5>Personal Information</h5>
+
+                    <table class="table table-bordered">
+
+                        <tbody>
+
+                            <tr>
+                                <th>Registration ID</th>
+                                <td id="outId"></td>
+                            </tr>
+
+                            <tr>
+                                <th>Full Name</th>
+                                <td id="outName"></td>
+                            </tr>
+
+                            <tr>
+                                <th>Email Address</th>
+                                <td id="outEmail"></td>
+                            </tr>
+
+                            <tr>
+                                <th>Contact Number</th>
+                                <td id="outPhone"></td>
+                            </tr>
+
+                            <tr>
+                                <th>Location</th>
+                                <td id="outLocation"></td>
+                            </tr>
+
+                            <tr>
+                                <th>Date Of Birth</th>
+                                <td id="outDob"></td>
+                            </tr>
+
+                            <tr>
+                                <th>Gender</th>
+                                <td id="outGender"></td>
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+
+                    <h5 class="mt-4">Travel Information</h5>
+
+                    <table class="table table-bordered">
+
+                        <tbody>
+
+                            <tr>
+                                <th>Destination</th>
+                                <td id="outDestination"></td>
+                            </tr>
+
+                            <tr>
+                                <th>Travel Package</th>
+                                <td id="outPackage"></td>
+                            </tr>
+
+                            <tr>
+                                <th>Travel Date</th>
+                                <td id="outTravelDate"></td>
+                            </tr>
+
+                            <tr>
+                                <th>Visitors</th>
+                                <td id="outVisitors"></td>
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+
+                    <h5 class="mt-4">Payment Information</h5>
+
+                    <table class="table table-bordered">
+
+                        <tbody>
+
+                            <tr>
+                                <th>Total Amount</th>
+                                <td id="outAmount"></td>
+                            </tr>
+
+                            <tr>
+                                <th>Payment Method</th>
+                                <td id="outPayment"></td>
+                            </tr>
+
+                            <tr>
+                                <th>Payment Status</th>
+                                <td id="outStatus"></td>
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                    <p class="receipt-footer">
+                        Thank you for choosing New Zealand Tourism!
+                    </p>
+
+                </div>
+
+
+                <div class="result-buttons text-center">
+
+                    <button class="print-btn" id="printButton">
+
+                        <i class="bi bi-printer-fill"></i>
+                        Print Registration
+
+                    </button>
+
+                    <button class="new-btn" id="newButton">
+
+                        <i class="bi bi-plus-circle"></i>
+                        New Registration
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+ 
+    <!--======Footer Tag ==========-->
+    <!-- Demo content -->
+    <section class="demo-section">
+        <div>
+            <span>EXPLORE AOTEAROA</span>
+            <h1>Discover New Zealand</h1>
+            <p>Nature, adventure and unforgettable journeys.</p>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="nz-footer">
+
+        <div class="footer-top">
+            <div class="container">
+
+                <!-- Newsletter -->
+                <div class="newsletter-box">
+                    <div>
+                        <span class="small-title">STAY CONNECTED</span>
+                        <h2>Get inspired for your next journey.</h2>
+                        <p>Subscribe for travel ideas, destination guides and special updates.</p>
+                    </div>
+
+                    <form id="newsletterForm" class="newsletter-form">
+                        <input type="email" id="newsletterEmail" placeholder="Enter your email address" required>
+                        <button type="submit">
+                            Subscribe <i class="bi bi-arrow-right"></i>
+                        </button>
+                    </form>
+                </div>
+
+                <div id="newsletterMessage" class="newsletter-message"></div>
+
+                <div class="row gy-5 footer-content">
+
+                    <!-- Brand -->
+                    <div class="col-lg-4 col-md-6">
+                        <a href="#" class="footer-logo">
+                            <span class="logo-icon"><i class="bi bi-compass-fill"></i></span>
+                            <span>NEW ZEALAND<small>EXPLORE MORE</small></span>
+                        </a>
+
+                        <p class="brand-description">
+                            From breathtaking mountains to peaceful beaches,
+                            discover the beauty and magic of Aotearoa New Zealand.
+                        </p>
+
+                        <div class="social-links">
+                            <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                            <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                            <a href="#" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+                            <a href="#" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Quick Links -->
+                    <div class="col-lg-2 col-md-6">
+                        <h5 class="footer-heading">Quick Links</h5>
+                        <ul class="footer-links">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="services.html">Our Services</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="blog.html">Travel Blog</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <!-- Destinations -->
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="footer-heading">Top Destinations</h5>
+                        <ul class="footer-links">
+                            <li><a href="#">Auckland</a></li>
+                            <li><a href="#">Queenstown</a></li>
+                            <li><a href="#">Rotorua</a></li>
+                            <li><a href="#">Milford Sound</a></li>
+                            <li><a href="#">Christchurch</a></li>
+                            <li><a href="#">Wellington</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Contact -->
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="footer-heading">Contact Us</h5>
+
+                        <div class="contact-item">
+                            <i class="bi bi-geo-alt-fill"></i>
+                            <p>New Zealand, Aotearoa</p>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="bi bi-envelope-fill"></i>
+                            <p>info@newzealand.com</p>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="bi bi-telephone-fill"></i>
+                            <p>+64 123 456 789</p>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="bi bi-clock-fill"></i>
+                            <p>Mon - Fri: 9:00 AM - 5:00 PM</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Footer Bottom -->
+                <div class="footer-bottom">
+                    <p>
+                        &copy; <span id="currentYear"></span>
+                        New Zealand Tourism. All Rights Reserved.
+                    </p>
+
+                    <div class="bottom-links">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms & Conditions</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Back to Top -->
+        <button id="backToTop" class="back-to-top" aria-label="Back to top">
+            <i class="bi bi-arrow-up"></i>
+        </button>
+
+    </footer>
+    
+     <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
